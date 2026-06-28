@@ -1,0 +1,20 @@
+{
+  "_id": "Skepticalne00071",
+  "_key": "!items!Skepticalne00071",
+  "name": "Skeptical",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7200,
+  "ownership": {
+    "default": 0
+  }
+}

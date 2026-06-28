@@ -1,0 +1,22 @@
+{
+  "_id": "Engorgioxxx00079",
+  "_key": "!items!Engorgioxxx00079",
+  "name": "Engorgio",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes objects to increase in size.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  }
+}

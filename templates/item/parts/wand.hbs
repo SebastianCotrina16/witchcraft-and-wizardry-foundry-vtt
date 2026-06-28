@@ -1,0 +1,15 @@
+{{!-- Wand body: wood, core, length, flexibility. --}}
+<div class="waw-field-grid">
+  <label>{{localize "WAW.Field.Wood"}}
+    <input type="text" name="system.wood" value="{{system.wood}}" {{#unless editable}}disabled{{/unless}}>
+  </label>
+  <label>{{localize "WAW.Field.Core"}}
+    <input type="text" name="system.core" value="{{system.core}}" {{#unless editable}}disabled{{/unless}}>
+  </label>
+  <label>{{localize "WAW.Field.Length"}}
+    <input type="number" name="system.length" value="{{system.length}}" min="0" {{#unless editable}}disabled{{/unless}}>
+  </label>
+  <label>{{localize "WAW.Field.Flexibility"}}
+    <input type="text" name="system.flexibility" value="{{system.flexibility}}" {{#unless editable}}disabled{{/unless}}>
+  </label>
+</div>

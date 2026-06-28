@@ -1,0 +1,22 @@
+{
+  "_id": "Expelliarmu00035",
+  "_key": "!items!Expelliarmu00035",
+  "name": "Expelliarmus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Forces whatever an opponent is holding to fly out of their hand. Harry Potter's signature spell.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3600,
+  "ownership": {
+    "default": 0
+  }
+}

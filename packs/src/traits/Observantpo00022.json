@@ -1,0 +1,20 @@
+{
+  "_id": "Observantpo00022",
+  "_key": "!items!Observantpo00022",
+  "name": "Observant",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "positive",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  }
+}

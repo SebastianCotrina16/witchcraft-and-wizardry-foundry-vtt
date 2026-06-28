@@ -1,0 +1,30 @@
+{{!-- One spell row. Expects `spell`. --}}
+<li class="waw-spell-row {{#if spell.system.isSignature}}is-signature{{/if}}" data-item-id="{{spell.id}}">
+  <span class="waw-year-badge" data-tooltip="{{localize "WAW.Field.Year"}} {{spell.system.year}}">{{spell.system.year}}</span>
+  <img class="waw-item-img" src="{{spell.img}}" alt="{{spell.name}}">
+  <span class="waw-spell-name">{{spell.name}}</span>
+  <span class="waw-spell-type">{{localize (lookup @root.config.spellTypes spell.system.spellType)}}</span>
+  <div class="waw-item-controls">
+    {{#if @root.editable}}
+    <button type="button" class="waw-icon-btn {{#if spell.system.isSignature}}on{{/if}}" data-action="toggleItemField"
+            data-field="system.isSignature" data-tooltip="WAW.Field.Signature">
+      <i class="fa-solid fa-star"></i>
+    </button>
+    <button type="button" class="waw-icon-btn {{#if spell.system.inSpellBank}}on{{/if}}" data-action="toggleItemField"
+            data-field="system.inSpellBank" data-tooltip="WAW.Field.InSpellBank">
+      <i class="fa-solid fa-book-sparkles"></i>
+    </button>
+    {{/if}}
+    <button type="button" class="waw-icon-btn" data-action="useItem" data-tooltip="WAW.Action.Cast">
+      <i class="fa-solid fa-dice"></i>
+    </button>
+    <button type="button" class="waw-icon-btn" data-action="editItem" data-tooltip="WAW.Action.Edit">
+      <i class="fa-solid fa-pen-to-square"></i>
+    </button>
+    {{#if @root.editable}}
+    <button type="button" class="waw-icon-btn" data-action="deleteItem" data-tooltip="WAW.Action.Delete">
+      <i class="fa-solid fa-trash"></i>
+    </button>
+    {{/if}}
+  </div>
+</li>

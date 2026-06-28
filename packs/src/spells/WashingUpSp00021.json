@@ -1,0 +1,22 @@
+{
+  "_id": "WashingUpSp00021",
+  "_key": "!items!WashingUpSp00021",
+  "name": "Washing Up Spell",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Enchanted dirty dishes to wash themselves.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  }
+}

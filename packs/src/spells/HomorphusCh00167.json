@@ -1,0 +1,22 @@
+{
+  "_id": "HomorphusCh00167",
+  "_key": "!items!HomorphusCh00167",
+  "name": "Homorphus Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes an Animagus or transfigured object to assume its normal shape.</p>",
+    "year": 7,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 16800,
+  "ownership": {
+    "default": 0
+  }
+}

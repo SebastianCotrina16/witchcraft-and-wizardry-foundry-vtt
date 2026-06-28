@@ -1,0 +1,22 @@
+{
+  "_id": "SpecialisRe00121",
+  "_key": "!items!SpecialisRe00121",
+  "name": "Specialis Revelio",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Reveals spells cast on objects or potions.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 12200,
+  "ownership": {
+    "default": 0
+  }
+}

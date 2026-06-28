@@ -1,0 +1,22 @@
+{
+  "_id": "Alohomoraxx00000",
+  "_key": "!items!Alohomoraxx00000",
+  "name": "Alohomora",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Unlocks doors and other objects. It can also unlock doors that have been sealed with a Locking Spell, although it is possible to bewitch doors to become unaffected by this spell.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  }
+}

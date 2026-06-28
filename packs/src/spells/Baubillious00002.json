@@ -1,0 +1,22 @@
+{
+  "_id": "Baubillious00002",
+  "_key": "!items!Baubillious00002",
+  "name": "Baubillious",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>White sparks are emitted from the tip of the wand.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  }
+}

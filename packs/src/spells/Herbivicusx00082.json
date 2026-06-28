@@ -1,0 +1,22 @@
+{
+  "_id": "Herbivicusx00082",
+  "_key": "!items!Herbivicusx00082",
+  "name": "Herbivicus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Rapidly grows plants.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8300,
+  "ownership": {
+    "default": 0
+  }
+}

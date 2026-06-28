@@ -1,0 +1,22 @@
+{
+  "_id": "Unbreakable00094",
+  "_key": "!items!Unbreakable00094",
+  "name": "Unbreakable Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Makes objects unbreakable.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9500,
+  "ownership": {
+    "default": 0
+  }
+}

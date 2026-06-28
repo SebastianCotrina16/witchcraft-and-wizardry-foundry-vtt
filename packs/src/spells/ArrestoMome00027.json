@@ -1,0 +1,22 @@
+{
+  "_id": "ArrestoMome00027",
+  "_key": "!items!ArrestoMome00027",
+  "name": "Arresto Momentum",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Decreases the velocity of a moving target. Can be used on multiple targets, as well as on the caster themselves.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  }
+}

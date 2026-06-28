@@ -1,0 +1,22 @@
+{
+  "_id": "Homonculous00134",
+  "_key": "!items!Homonculous00134",
+  "name": "Homonculous Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Tracks the movements of human beings. The charm has a powerful effect in that it is not fooled by various methods of concealment and disguise, such as invisibility cloaks, the Polyjuice Potion or transformed Animagi.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13500,
+  "ownership": {
+    "default": 0
+  }
+}

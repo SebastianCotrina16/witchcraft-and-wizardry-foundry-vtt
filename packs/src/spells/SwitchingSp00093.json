@@ -1,0 +1,22 @@
+{
+  "_id": "SwitchingSp00093",
+  "_key": "!items!SwitchingSp00093",
+  "name": "Switching Spell",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Switches two targets simultaneously.</p>",
+    "year": 4,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9400,
+  "ownership": {
+    "default": 0
+  }
+}

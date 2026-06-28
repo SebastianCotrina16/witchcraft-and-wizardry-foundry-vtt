@@ -1,0 +1,22 @@
+{
+  "_id": "BabblingCur00029",
+  "_key": "!items!BabblingCur00029",
+  "name": "Babbling Curse",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes uncontrollable babbling.</p>",
+    "year": 2,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

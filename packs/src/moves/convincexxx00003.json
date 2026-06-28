@@ -1,0 +1,25 @@
+{
+  "_id": "convincexxx00003",
+  "_key": "!items!convincexxx00003",
+  "name": "Convince",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Heart when you try to make someone hear you, through intimidation or conversation.</p><p><strong>10+:</strong> They hear you and believe you.</p><p><strong>7-9:</strong> Choose one: they need proof; they go along with it… for now; they do it but are terrified of you; you bribe them.</p>",
+    "key": "convince",
+    "attribute": "heart",
+    "results": {
+      "success": "They hear you and believe you.",
+      "partial": "Choose one: they need proof; they go along with it… for now; they do it but are terrified of you; you bribe them.",
+      "failure": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "CribbingSpe00033",
+  "_key": "!items!CribbingSpe00033",
+  "name": "Cribbing Spell",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>This spell, which may possibly be a charm, is used to assist the caster in cheating on written papers, tests, and exams.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3400,
+  "ownership": {
+    "default": 0
+  }
+}

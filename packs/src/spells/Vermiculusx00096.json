@@ -1,0 +1,22 @@
+{
+  "_id": "Vermiculusx00096",
+  "_key": "!items!Vermiculusx00096",
+  "name": "Vermiculus",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Transforms things into worms.</p>",
+    "year": 4,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9700,
+  "ownership": {
+    "default": 0
+  }
+}

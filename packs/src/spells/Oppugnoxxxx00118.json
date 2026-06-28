@@ -1,0 +1,22 @@
+{
+  "_id": "Oppugnoxxxx00118",
+  "_key": "!items!Oppugnoxxxx00118",
+  "name": "Oppugno",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes targeted objects to attack a victim. It is particularly effective in conjunction with the Bird-Conjuring Charm.</p>",
+    "year": 5,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11900,
+  "ownership": {
+    "default": 0
+  }
+}

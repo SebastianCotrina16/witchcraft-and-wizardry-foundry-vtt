@@ -1,0 +1,22 @@
+{
+  "_id": "Imperturbab00113",
+  "_key": "!items!Imperturbab00113",
+  "name": "Imperturbable Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Creates an invisible magical barrier on an object, such as a door. This barrier bounces objects off of it, and muffles sounds.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11400,
+  "ownership": {
+    "default": 0
+  }
+}

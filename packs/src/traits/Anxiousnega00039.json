@@ -1,0 +1,20 @@
+{
+  "_id": "Anxiousnega00039",
+  "_key": "!items!Anxiousnega00039",
+  "name": "Anxious",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

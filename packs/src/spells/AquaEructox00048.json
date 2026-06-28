@@ -1,0 +1,22 @@
+{
+  "_id": "AquaEructox00048",
+  "_key": "!items!AquaEructox00048",
+  "name": "Aqua Eructo",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>This spell is used to create, and control, a jet of clear water from the tip of the wand; it is probably related to Aguamenti.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4900,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{{!-- One personality trait row. Expects `t`. --}}
+<li class="waw-trait-row {{#if t.system.locked}}locked{{/if}}" data-item-id="{{t.id}}">
+  {{#if @root.editable}}
+  <button type="button" class="waw-icon-btn waw-lock {{#if t.system.locked}}on{{/if}}" data-action="toggleItemField"
+          data-field="system.locked" data-tooltip="WAW.Field.Locked">
+    <i class="fa-solid {{#if t.system.locked}}fa-lock{{else}}fa-lock-open{{/if}}"></i>
+  </button>
+  {{/if}}
+  <span class="waw-trait-name">{{t.name}}</span>
+  <div class="waw-item-controls">
+    <button type="button" class="waw-icon-btn" data-action="editItem" data-tooltip="WAW.Action.Edit">
+      <i class="fa-solid fa-pen-to-square"></i>
+    </button>
+    {{#if @root.editable}}
+    <button type="button" class="waw-icon-btn" data-action="deleteItem" data-tooltip="WAW.Action.Delete">
+      <i class="fa-solid fa-trash"></i>
+    </button>
+    {{/if}}
+  </div>
+</li>

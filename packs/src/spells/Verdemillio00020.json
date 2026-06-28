@@ -1,0 +1,22 @@
+{
+  "_id": "Verdemillio00020",
+  "_key": "!items!Verdemillio00020",
+  "name": "Verdemillious",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Emits green sparks from the wand.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Impedimenta00084",
+  "_key": "!items!Impedimenta00084",
+  "name": "Impedimenta",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Slows down or stops the target.</p>",
+    "year": 4,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8500,
+  "ownership": {
+    "default": 0
+  }
+}

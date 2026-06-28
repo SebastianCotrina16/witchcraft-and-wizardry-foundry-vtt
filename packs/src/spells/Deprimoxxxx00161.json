@@ -1,0 +1,22 @@
+{
+  "_id": "Deprimoxxxx00161",
+  "_key": "!items!Deprimoxxxx00161",
+  "name": "Deprimo",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Charm used to blast holes in the ground.</p>",
+    "year": 7,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 16200,
+  "ownership": {
+    "default": 0
+  }
+}

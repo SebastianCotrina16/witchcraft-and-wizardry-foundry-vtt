@@ -1,0 +1,22 @@
+{
+  "_id": "FideliusCha00110",
+  "_key": "!items!FideliusCha00110",
+  "name": "Fidelius Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>An immensely complex charm used to hide secret information within the soul of the charm's recipient, who is called a Secret-Keeper. The information is irretrievable unless the Secret-Keeper willingly chooses to reveal it, and only the aforementioned person can do so.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11100,
+  "ownership": {
+    "default": 0
+  }
+}

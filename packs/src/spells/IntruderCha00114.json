@@ -1,0 +1,22 @@
+{
+  "_id": "IntruderCha00114",
+  "_key": "!items!IntruderCha00114",
+  "name": "Intruder Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Detects intruders and sounds an alarm.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11500,
+  "ownership": {
+    "default": 0
+  }
+}

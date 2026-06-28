@@ -1,0 +1,251 @@
+{{!-- Guided character creation wizard. Single part: ONE root element required. --}}
+<div class="waw-wizard-content">
+<nav class="waw-wizard-steps">
+  {{#each steps as |s i|}}
+  <button type="button" class="waw-wizard-step {{#if (wawEq i @root.stepIndex)}}active{{/if}} {{#if (wawLt i @root.stepIndex)}}done{{/if}}"
+          data-action="wizardGoto" data-index="{{i}}" data-tooltip="{{localize (wawConcat "WAW.Wizard.Step." s)}}">
+    <span class="waw-wizard-dot">{{wawAdd i 1}}</span>
+  </button>
+  {{/each}}
+</nav>
+
+<h2 class="waw-wizard-title">{{localize (wawConcat "WAW.Wizard.Step." step)}}</h2>
+
+<div class="waw-wizard-body">
+
+  {{#if (wawEq step "identity")}}
+  <p class="waw-wizard-hint">{{localize "WAW.Wizard.Hint.Identity"}}</p>
+  <label class="waw-w-field">{{localize "WAW.Field.Name"}}
+    <input type="text" name="name" value="{{data.name}}" placeholder="{{localize "WAW.Field.Name"}}">
+  </label>
+  <label class="waw-w-field">{{localize "WAW.Field.Heritage"}}
+    <select name="heritage">
+      {{#each config.heritages as |labelKey key|}}
+      <option value="{{key}}" {{#if (wawEq @root.data.heritage key)}}selected{{/if}}>{{localize labelKey}}</option>
+      {{/each}}
+    </select>
+  </label>
+  <div class="waw-w-row">
+    <label class="waw-w-field">{{localize "WAW.Wizard.BirthMonth"}}
+      <select name="birthMonth">
+        {{#each config.months as |mk idx|}}
+        <option value="{{wawAdd idx 1}}" {{#if (wawEq @root.data.birthMonth (wawAdd idx 1))}}selected{{/if}}>{{localize mk}}</option>
+        {{/each}}
+      </select>
+    </label>
+    <label class="waw-w-field">{{localize "WAW.Wizard.BirthDay"}}
+      <select name="birthDay">
+        {{#each days as |day|}}
+        <option value="{{day}}" {{#if (wawEq @root.data.birthDay day)}}selected{{/if}}>{{day}}</option>
+        {{/each}}
+      </select>
+    </label>
+  </div>
+  {{/if}}
+
+  {{#if (wawEq step "attributes")}}
+  <p class="waw-wizard-hint">{{localize "WAW.Wizard.Hint.Attributes"}}</p>
+  {{#if heritageInfo}}
+  <button type="button" class="waw-mini-btn" data-action="wizardApplyHeritage">{{localize "WAW.Wizard.ApplyBase"}}</button>
+  {{/if}}
+  <div class="waw-w-attrs">
+    {{#each config.attributes as |labelKey key|}}
+    <label class="waw-w-attr">{{localize labelKey}}
+      <input type="number" name="attributes.{{key}}" value="{{lookup @root.data.attributes key}}"
+             min="{{@root.config.attributeCreationRange.min}}" max="{{@root.config.attributeCreationRange.max}}" step="1">
+    </label>
+    {{/each}}
+  </div>
+  {{#if heritageInfo.bonusOptions}}
+  <label class="waw-wizard-note"><b>+</b>
+    <select name="heritageBonus">
+      <option value="">{{localize "WAW.HeritageInfo.Choose"}}</option>
+      {{#each heritageInfo.bonusOptions as |opt|}}
+      <option value="{{opt}}" {{#if (wawEq @root.data.heritageBonus opt)}}selected{{/if}}>{{localize opt}}</option>
+      {{/each}}
+    </select>
+  </label>
+  <label class="waw-wizard-note"><b>−</b>
+    <select name="heritageDrawback">
+      <option value="">{{localize "WAW.HeritageInfo.Choose"}}</option>
+      {{#each heritageInfo.drawbackOptions as |opt|}}
+      <option value="{{opt}}" {{#if (wawEq @root.data.heritageDrawback opt)}}selected{{/if}}>{{localize opt}}</option>
+      {{/each}}
+    </select>
+  </label>
+  {{else if heritageInfo}}
+  <p class="waw-wizard-note"><b>+</b> {{localize heritageInfo.bonus}}</p>
+  <p class="waw-wizard-note"><b>−</b> {{localize heritageInfo.drawback}}</p>
+  {{/if}}
+  <p class="waw-wizard-note">{{localize "WAW.Wizard.AttrTotal"}}: <b>{{wawSigned attrTotal}}</b> ({{localize "WAW.Wizard.AttrTarget"}})</p>
+  <div class="waw-w-row">
+    <label class="waw-w-field">{{localize "WAW.Field.Galleons"}}
+      <input type="number" name="galleons" value="{{data.galleons}}" min="0">
+    </label>
+    <button type="button" class="waw-mini-btn" data-action="wizardRollGalleons">
+      <i class="fa-solid fa-coins"></i> {{localize "WAW.Action.RollGalleons"}}{{#if heritageInfo}} ({{heritageInfo.galleons}}){{/if}}
+    </button>
+  </div>
+  {{/if}}
+
+  {{#if (wawEq step "house")}}
+  <p class="waw-wizard-hint">{{localize "WAW.Wizard.Hint.House"}}</p>
+  <label class="waw-w-field">{{localize "WAW.Field.House"}}
+    <select name="house">
+      {{#each config.houses as |labelKey key|}}
+      <option value="{{key}}" {{#if (wawEq @root.data.house key)}}selected{{/if}}>{{localize labelKey}}</option>
+      {{/each}}
+    </select>
+  </label>
+  <label class="waw-w-field">{{localize "WAW.Section.HouseBenefit"}}
+    {{#if houseBenefits.length}}
+    <select name="houseBenefit">
+      <option value="">&mdash;</option>
+      {{#each houseBenefits as |bk|}}
+      <option value="{{bk}}" {{#if (wawEq @root.data.houseBenefit bk)}}selected{{/if}}>{{localize bk}}</option>
+      {{/each}}
+    </select>
+    {{else}}
+    <span class="waw-wizard-note">{{localize "WAW.Benefit.PickHouse"}}</span>
+    {{/if}}
+  </label>
+  {{/if}}
+
+  {{#if (wawEq step "traits")}}
+  <p class="waw-wizard-hint">{{localize "WAW.Wizard.Hint.Traits"}}</p>
+  {{#if traits.missing}}
+  <p class="waw-wizard-note">{{localize "WAW.Wizard.NoPack"}}</p>
+  {{else}}
+  <div class="waw-w-traitcols">
+    <div>
+      <h4 class="waw-w-colhead pos">{{localize "WAW.Trait.Positive"}}</h4>
+      {{#each traits.positive as |t|}}
+      <label class="waw-w-check"><input type="checkbox" data-trait-id="{{t.id}}" {{#if t.checked}}checked{{/if}}> {{t.name}}</label>
+      {{/each}}
+    </div>
+    <div>
+      <h4 class="waw-w-colhead neg">{{localize "WAW.Trait.Negative"}}</h4>
+      {{#each traits.negative as |t|}}
+      <label class="waw-w-check"><input type="checkbox" data-trait-id="{{t.id}}" {{#if t.checked}}checked{{/if}}> {{t.name}}</label>
+      {{/each}}
+    </div>
+  </div>
+  {{/if}}
+  {{/if}}
+
+  {{#if (wawEq step "looks")}}
+  <p class="waw-wizard-hint">{{localize "WAW.Wizard.Hint.Looks"}}</p>
+  <label class="waw-w-field">{{localize "WAW.Field.LookBody"}}
+    <input type="text" name="looks.body" value="{{data.looks.body}}">
+  </label>
+  <label class="waw-w-field">{{localize "WAW.Field.LookEyes"}}
+    <input type="text" name="looks.eyes" value="{{data.looks.eyes}}">
+  </label>
+  <label class="waw-w-field">{{localize "WAW.Field.LookFace"}}
+    <input type="text" name="looks.face" value="{{data.looks.face}}">
+  </label>
+  {{/if}}
+
+  {{#if (wawEq step "wand")}}
+  <p class="waw-wizard-hint">{{localize "WAW.Wizard.Hint.Wand"}}</p>
+  <label class="waw-w-field">{{localize "WAW.Field.Wood"}} <small>({{localize "WAW.Wizard.FromBirthday"}})</small>
+    <input type="text" name="wand.wood" value="{{data.wand.wood}}">
+  </label>
+  <div class="waw-w-row">
+    <label class="waw-w-field">{{localize "WAW.Field.Core"}}
+      <input type="text" name="wand.core" value="{{data.wand.core}}">
+    </label>
+    <button type="button" class="waw-mini-btn" data-action="wizardRollCore"><i class="fa-solid fa-dice"></i></button>
+  </div>
+  <div class="waw-w-row">
+    <label class="waw-w-field">{{localize "WAW.Field.Length"}}
+      <input type="number" name="wand.length" value="{{data.wand.length}}" min="0">
+    </label>
+    <button type="button" class="waw-mini-btn" data-action="wizardRollLength"><i class="fa-solid fa-dice"></i></button>
+  </div>
+  <label class="waw-w-field">{{localize "WAW.Field.Flexibility"}}
+    <select name="wand.flexibility">
+      <option value="">&mdash;</option>
+      {{#each config.wandFlexibilities as |flex|}}
+      <option value="{{flex}}" {{#if (wawEq @root.data.wand.flexibility flex)}}selected{{/if}}>{{flex}}</option>
+      {{/each}}
+    </select>
+  </label>
+  {{/if}}
+
+  {{#if (wawEq step "pet")}}
+  <p class="waw-wizard-hint">{{localize "WAW.Wizard.Hint.Pet"}}</p>
+  <label class="waw-w-field">{{localize "WAW.Field.Species"}}
+    <select name="pet.species">
+      {{#each config.pets as |labelKey key|}}
+      <option value="{{key}}" {{#if (wawEq @root.data.pet.species key)}}selected{{/if}}>{{localize labelKey}}</option>
+      {{/each}}
+    </select>
+  </label>
+  <label class="waw-w-field">{{localize "WAW.Field.Name"}}
+    <input type="text" name="pet.name" value="{{data.pet.name}}" placeholder="{{localize "WAW.Wizard.PetNameHint"}}">
+  </label>
+  <label class="waw-w-field">{{localize "WAW.Field.Personality"}}
+    <input type="text" name="pet.personality" value="{{data.pet.personality}}">
+  </label>
+  <label class="waw-w-field">{{localize "WAW.Field.Look"}}
+    <input type="text" name="pet.look" value="{{data.pet.look}}">
+  </label>
+  {{/if}}
+
+  {{#if (wawEq step "background")}}
+  <p class="waw-wizard-hint">{{localize "WAW.Wizard.Hint.Background"}}</p>
+  <label class="waw-w-field">{{localize "WAW.Section.Background"}}
+    <textarea name="background" rows="10" placeholder="{{localize "WAW.Wizard.BackgroundPrompt"}}">{{data.background}}</textarea>
+  </label>
+  {{/if}}
+
+  {{#if (wawEq step "spells")}}
+  <p class="waw-wizard-hint">{{localize "WAW.Wizard.Hint.Spells"}}</p>
+  <p class="waw-wizard-note">{{localize "WAW.Wizard.SpellLimit"}}: <b>{{spellLimit}}</b>{{#if halfblood}} — {{localize "WAW.Wizard.HalfbloodSpell"}}{{/if}}</p>
+  {{#if spells.missing}}
+  <p class="waw-wizard-note">{{localize "WAW.Wizard.NoPack"}}</p>
+  {{else}}
+  <div class="waw-w-spelllist">
+    {{#each spells.list as |sp|}}
+    <label class="waw-w-check"><input type="checkbox" data-spell-id="{{sp.id}}" {{#if sp.checked}}checked{{/if}}> {{sp.name}}</label>
+    {{/each}}
+  </div>
+  {{/if}}
+  {{/if}}
+
+  {{#if (wawEq step "summary")}}
+  <p class="waw-wizard-hint">{{localize "WAW.Wizard.Hint.Summary"}}</p>
+  <ul class="waw-w-summary">
+    <li><b>{{localize "WAW.Field.Name"}}:</b> {{data.name}}</li>
+    <li><b>{{localize "WAW.Field.Heritage"}}:</b> {{localize (lookup config.heritages data.heritage)}}</li>
+    <li><b>{{localize "WAW.Field.House"}}:</b> {{localize (lookup config.houses data.house)}}</li>
+    <li><b>{{localize "WAW.Section.Attributes"}}:</b>
+      {{#each summary.attrs as |a|}}{{localize a.label}} {{wawSigned a.value}}{{#unless @last}}, {{/unless}}{{/each}}
+    </li>
+    <li><b>{{localize "WAW.Field.Galleons"}}:</b> {{data.galleons}}</li>
+    <li><b>{{localize "WAW.Section.Traits"}}:</b> {{summary.traitCount}}</li>
+    <li><b>{{localize "WAW.Section.Spells"}}:</b> {{summary.spellCount}}</li>
+    <li><b>{{localize "WAW.Section.Wands"}}:</b> {{data.wand.wood}} {{#if data.wand.core}}· {{data.wand.core}}{{/if}}</li>
+    {{#if data.pet.name}}<li><b>{{localize "WAW.Section.Pets"}}:</b> {{data.pet.name}}</li>{{/if}}
+  </ul>
+  <p class="waw-wizard-note">{{localize "WAW.Wizard.FinishNote"}}</p>
+  {{/if}}
+
+</div>
+
+<footer class="waw-wizard-footer">
+  <button type="button" class="waw-w-btn" data-action="wizardBack" {{#if isFirst}}disabled{{/if}}>
+    <i class="fa-solid fa-arrow-left"></i> {{localize "WAW.Wizard.Back"}}
+  </button>
+  {{#if isLast}}
+  <button type="button" class="waw-w-btn primary" data-action="wizardFinish">
+    <i class="fa-solid fa-check"></i> {{localize "WAW.Wizard.Finish"}}
+  </button>
+  {{else}}
+  <button type="button" class="waw-w-btn primary" data-action="wizardNext">
+    {{localize "WAW.Wizard.Next"}} <i class="fa-solid fa-arrow-right"></i>
+  </button>
+  {{/if}}
+</footer>
+</div>

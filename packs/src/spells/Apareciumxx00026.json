@@ -1,0 +1,22 @@
+{
+  "_id": "Apareciumxx00026",
+  "_key": "!items!Apareciumxx00026",
+  "name": "Aparecium",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Reveals secret messages written in invisible ink, or any other hidden markings. Also works against Concealing charms.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  }
+}

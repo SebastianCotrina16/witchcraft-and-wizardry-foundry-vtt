@@ -1,0 +1,22 @@
+{
+  "_id": "Caterwaulin00127",
+  "_key": "!items!Caterwaulin00127",
+  "name": "Caterwauling Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Anyone entering the perimeter of this spell sets off a high-pitched shriek.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 12800,
+  "ownership": {
+    "default": 0
+  }
+}

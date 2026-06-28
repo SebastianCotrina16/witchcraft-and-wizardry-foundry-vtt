@@ -1,0 +1,22 @@
+{
+  "_id": "Revelioxxxx00173",
+  "_key": "!items!Revelioxxxx00173",
+  "name": "Revelio",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Reveals secrets about a person or object.</p>",
+    "year": 7,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17400,
+  "ownership": {
+    "default": 0
+  }
+}

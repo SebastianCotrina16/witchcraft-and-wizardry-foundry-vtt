@@ -1,0 +1,21 @@
+{
+  "_id": "FelixFelici00002",
+  "_key": "!items!FelixFelici00002",
+  "name": "Felix Felicis",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Grants the drinker an extraordinarily lucky period. Highly toxic in excess.</p>",
+    "effect": "Liquid luck",
+    "quantity": 1,
+    "price": 100
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  }
+}

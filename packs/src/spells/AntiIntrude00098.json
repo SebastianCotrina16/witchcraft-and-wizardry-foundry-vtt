@@ -1,0 +1,22 @@
+{
+  "_id": "AntiIntrude00098",
+  "_key": "!items!AntiIntrude00098",
+  "name": "Anti-Intruder Jinx",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Prevents intruders from entering an area.</p>",
+    "year": 5,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9900,
+  "ownership": {
+    "default": 0
+  }
+}

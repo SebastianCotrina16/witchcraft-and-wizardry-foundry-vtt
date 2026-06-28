@@ -1,0 +1,22 @@
+{
+  "_id": "Rennervatex00145",
+  "_key": "!items!Rennervatex00145",
+  "name": "Rennervate",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Awakens an unconscious victim. It is consequently the counter-charm to the Stunning Spell.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14600,
+  "ownership": {
+    "default": 0
+  }
+}

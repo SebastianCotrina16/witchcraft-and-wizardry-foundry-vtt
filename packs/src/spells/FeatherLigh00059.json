@@ -1,0 +1,22 @@
+{
+  "_id": "FeatherLigh00059",
+  "_key": "!items!FeatherLigh00059",
+  "name": "Feather-Light Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Makes an object light as a feather.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  }
+}

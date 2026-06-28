@@ -1,0 +1,22 @@
+{
+  "_id": "ViperaEvane00152",
+  "_key": "!items!ViperaEvane00152",
+  "name": "Vipera Evanesca",
+  "type": "spell",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Vanishes snakes. Subsequently, it is the counter-spell for the Snake Summons Spell.</p>",
+    "year": 6,
+    "spellType": "conjuration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15300,
+  "ownership": {
+    "default": 0
+  }
+}

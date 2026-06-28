@@ -1,0 +1,22 @@
+{
+  "_id": "Revertexxxx00146",
+  "_key": "!items!Revertexxxx00146",
+  "name": "Reverte",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Returns objects to their original positions or states.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14700,
+  "ownership": {
+    "default": 0
+  }
+}

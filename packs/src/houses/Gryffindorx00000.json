@@ -1,0 +1,32 @@
+{
+  "_id": "Gryffindorx00000",
+  "_key": "!journal!Gryffindorx00000",
+  "name": "Gryffindor",
+  "pages": [
+    {
+      "_id": "Gryffindorp00000",
+      "_key": "!journal.pages!Gryffindorx00000.Gryffindorp00000",
+      "name": "Gryffindor",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>House Ghost:</strong> Nearly Headless Nick</p><p><strong>Common Room:</strong> Top of Gryffindor Tower</p><p><em>Entrance by password.</em></p><p><strong>Choose one benefit:</strong></p><ul><li>Automatically succeed on a Show Courage move once per day.</li><li>Shake off the Injured condition once per day.</li><li>Take +1 forward to all Body rolls for 1 scene, once per day.</li></ul>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

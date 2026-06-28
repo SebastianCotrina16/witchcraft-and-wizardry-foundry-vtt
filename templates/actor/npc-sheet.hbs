@@ -1,0 +1,63 @@
+{{!-- NPC sheet: professors, villains, creatures, students. --}}
+<div class="waw-sheet waw-npc">
+
+  <header class="waw-header">
+    <img class="waw-portrait" src="{{actor.img}}" data-edit="img" alt="{{actor.name}}">
+    <div class="waw-identity">
+      <input class="waw-name" type="text" name="name" value="{{actor.name}}"
+             placeholder="{{localize "WAW.Field.Name"}}" {{#unless editable}}disabled{{/unless}}>
+      <div class="waw-identity-row">
+        <label>{{localize "WAW.Field.Kind"}}
+          <select name="system.kind" {{#unless editable}}disabled{{/unless}}>
+            {{#each config.npcKinds as |labelKey key|}}
+            <option value="{{key}}" {{#if (wawEq @root.system.kind key)}}selected{{/if}}>{{localize labelKey}}</option>
+            {{/each}}
+          </select>
+        </label>
+        <label>{{localize "WAW.Field.Difficulty"}}
+          <select name="system.encounter.difficulty" {{#unless editable}}disabled{{/unless}}>
+            {{#each config.encounterHits as |hits key|}}
+            <option value="{{key}}" {{#if (wawEq @root.system.encounter.difficulty key)}}selected{{/if}}>{{localize (wawConcat "WAW.Difficulty." key)}}</option>
+            {{/each}}
+          </select>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <div class="waw-columns">
+    <div class="waw-col-left">
+      {{> "systems/witchcraft-and-wizardry/templates/actor/parts/attributes.hbs"}}
+      {{> "systems/witchcraft-and-wizardry/templates/actor/parts/conditions.hbs"}}
+
+      {{!-- Encounter hit tracker --}}
+      <section class="waw-encounter {{#if system.encounter.defeated}}defeated{{/if}}">
+        <header class="waw-section-header"><span>{{localize "WAW.Section.Encounter"}}</span></header>
+        <label>{{localize "WAW.Field.Hits"}}
+          <input type="number" name="system.encounter.hitsTaken" value="{{system.encounter.hitsTaken}}"
+                 min="0" {{#unless editable}}disabled{{/unless}}>
+          <span>/ {{system.encounter.hitsToDefeat}}</span>
+        </label>
+      </section>
+    </div>
+
+    <div class="waw-col-right">
+      <section class="waw-field-block">
+        <label>{{localize "WAW.Field.Traits"}}</label>
+        <textarea name="system.traits" rows="3" {{#unless editable}}disabled{{/unless}}>{{system.traits}}</textarea>
+        <label>{{localize "WAW.Field.Motivation"}}</label>
+        <textarea name="system.motivation" rows="2" {{#unless editable}}disabled{{/unless}}>{{system.motivation}}</textarea>
+      </section>
+
+      {{> "systems/witchcraft-and-wizardry/templates/actor/parts/items-list.hbs"
+          items=itemsByType.move type="move" label="WAW.Section.Moves"}}
+      {{> "systems/witchcraft-and-wizardry/templates/actor/parts/items-list.hbs"
+          items=itemsByType.spell type="spell" label="WAW.Section.Spells"}}
+    </div>
+  </div>
+
+  <section class="waw-biography">
+    <header class="waw-section-header"><span>{{localize "WAW.Section.Biography"}}</span></header>
+    {{{biographyEditor}}}
+  </section>
+</div>

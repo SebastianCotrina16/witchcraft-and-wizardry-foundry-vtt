@@ -1,0 +1,21 @@
+{
+  "_id": "WolfsbanePo00004",
+  "_key": "!items!WolfsbanePo00004",
+  "name": "Wolfsbane Potion",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Allows a werewolf to keep their human mind during transformation. Extremely difficult to brew.</p>",
+    "effect": "Eases werewolf transformation",
+    "quantity": 1,
+    "price": 45
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  }
+}

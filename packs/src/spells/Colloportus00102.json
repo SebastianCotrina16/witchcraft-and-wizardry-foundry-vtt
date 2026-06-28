@@ -1,0 +1,22 @@
+{
+  "_id": "Colloportus00102",
+  "_key": "!items!Colloportus00102",
+  "name": "Colloportus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Locks doors, and presumably all things that can be locked; it is unknown whether the counterspell is required, or if a key could open it.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10300,
+  "ownership": {
+    "default": 0
+  }
+}

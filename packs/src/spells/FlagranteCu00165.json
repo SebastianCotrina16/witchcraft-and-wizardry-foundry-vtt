@@ -1,0 +1,22 @@
+{
+  "_id": "FlagranteCu00165",
+  "_key": "!items!FlagranteCu00165",
+  "name": "Flagrante Curse",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes objects to burn on contact.</p>",
+    "year": 7,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 16600,
+  "ownership": {
+    "default": 0
+  }
+}

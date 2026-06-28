@@ -1,0 +1,25 @@
+{
+  "_id": "readBetween00004",
+  "_key": "!items!readBetween00004",
+  "name": "Read Between The Lines",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Heart when you try to understand what someone or something is really thinking.</p><p><strong>10+:</strong> You read them like a book. Choose two questions.</p><p><strong>7-9:</strong> Choose one: Are they telling the truth? What are they planning? How do they see me? How can I get them to trust me? How can I make them angry? How are they feeling?</p>",
+    "key": "readBetweenTheLines",
+    "attribute": "heart",
+    "results": {
+      "success": "You read them like a book. Choose two questions.",
+      "partial": "Choose one: Are they telling the truth? What are they planning? How do they see me? How can I get them to trust me? How can I make them angry? How are they feeling?",
+      "failure": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  }
+}

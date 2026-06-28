@@ -1,0 +1,22 @@
+{
+  "_id": "Levicorpusx00137",
+  "_key": "!items!Levicorpusx00137",
+  "name": "Levicorpus",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Hoists people up into the air by their ankle.</p>",
+    "year": 6,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13800,
+  "ownership": {
+    "default": 0
+  }
+}

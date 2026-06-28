@@ -1,0 +1,22 @@
+{
+  "_id": "Reparifarge00014",
+  "_key": "!items!Reparifarge00014",
+  "name": "Reparifarge",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Used to reverse incomplete transformations.</p>",
+    "year": 1,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  }
+}

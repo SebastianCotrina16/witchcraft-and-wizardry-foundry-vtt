@@ -1,0 +1,21 @@
+{
+  "_id": "PepperupPot00005",
+  "_key": "!items!PepperupPot00005",
+  "name": "Pepperup Potion",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Warms the body and cures the common cold, leaving steam pouring from the drinker's ears for hours.</p>",
+    "effect": "Cures the common cold",
+    "quantity": 1,
+    "price": 8
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  }
+}

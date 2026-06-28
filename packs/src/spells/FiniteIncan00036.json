@@ -1,0 +1,22 @@
+{
+  "_id": "FiniteIncan00036",
+  "_key": "!items!FiniteIncan00036",
+  "name": "Finite Incantatem",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Terminates all spell effects in the vicinity of the caster.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3700,
+  "ownership": {
+    "default": 0
+  }
+}

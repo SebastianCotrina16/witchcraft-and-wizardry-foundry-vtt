@@ -1,0 +1,22 @@
+{
+  "_id": "BedazzlingH00155",
+  "_key": "!items!BedazzlingH00155",
+  "name": "Bedazzling Hex",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Allows the caster to disguise things.</p>",
+    "year": 7,
+    "spellType": "hex",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15600,
+  "ownership": {
+    "default": 0
+  }
+}

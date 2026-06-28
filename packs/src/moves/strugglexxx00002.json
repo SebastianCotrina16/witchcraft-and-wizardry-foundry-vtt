@@ -1,0 +1,25 @@
+{
+  "_id": "strugglexxx00002",
+  "_key": "!items!strugglexxx00002",
+  "name": "Struggle",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Body when you try to struggle against someone or something.</p><p><strong>10+:</strong> You struggle successfully, taking damage. Choose two.</p><p><strong>7-9:</strong> Choose one: shrug off the damage; take something from them; surprise them; frighten them.</p>",
+    "key": "struggle",
+    "attribute": "body",
+    "results": {
+      "success": "You struggle successfully, taking damage. Choose two.",
+      "partial": "Choose one: shrug off the damage; take something from them; surprise them; frighten them.",
+      "failure": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  }
+}

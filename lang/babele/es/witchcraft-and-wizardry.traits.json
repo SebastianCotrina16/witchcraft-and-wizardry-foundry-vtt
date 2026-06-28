@@ -1,0 +1,225 @@
+{
+  "label": "Rasgos de Personalidad",
+  "collection": "witchcraft-and-wizardry.traits",
+  "mapping": {
+    "name": "name"
+  },
+  "entries": {
+    "Adventurous": {
+      "name": "Aventurero"
+    },
+    "Ambitious": {
+      "name": "Ambicioso"
+    },
+    "Brave": {
+      "name": "Valiente"
+    },
+    "Caring": {
+      "name": "Atento"
+    },
+    "Cautious": {
+      "name": "Cauteloso"
+    },
+    "Charming": {
+      "name": "Encantador"
+    },
+    "Chivalrous": {
+      "name": "Caballeroso"
+    },
+    "Clever": {
+      "name": "Astuto"
+    },
+    "Cooperative": {
+      "name": "Cooperativo"
+    },
+    "Creative": {
+      "name": "Creativo"
+    },
+    "Determined": {
+      "name": "Decidido"
+    },
+    "Empathetic": {
+      "name": "Empático"
+    },
+    "Enduring": {
+      "name": "Resistente"
+    },
+    "Fair": {
+      "name": "Justo"
+    },
+    "Hard Working": {
+      "name": "Trabajador"
+    },
+    "Honest": {
+      "name": "Honesto"
+    },
+    "Industrious": {
+      "name": "Diligente"
+    },
+    "Intimidating": {
+      "name": "Intimidante"
+    },
+    "Intuitive": {
+      "name": "Intuitivo"
+    },
+    "Loyal": {
+      "name": "Leal"
+    },
+    "Methodical": {
+      "name": "Metódico"
+    },
+    "Nurturing": {
+      "name": "Protector"
+    },
+    "Observant": {
+      "name": "Observador"
+    },
+    "Obsessive": {
+      "name": "Obsesivo"
+    },
+    "Open-Minded": {
+      "name": "De Mente Abierta"
+    },
+    "Patient": {
+      "name": "Paciente"
+    },
+    "Philosophical": {
+      "name": "Filosófico"
+    },
+    "Reliable": {
+      "name": "Fiable"
+    },
+    "Reserved": {
+      "name": "Reservado"
+    },
+    "Sly": {
+      "name": "Taimado"
+    },
+    "Smart": {
+      "name": "Inteligente"
+    },
+    "Soulful": {
+      "name": "Sensible"
+    },
+    "Strong": {
+      "name": "Fuerte"
+    },
+    "Studious": {
+      "name": "Estudioso"
+    },
+    "Traditional": {
+      "name": "Tradicional"
+    },
+    "Witty": {
+      "name": "Ingenioso"
+    },
+    "Abrasive": {
+      "name": "Áspero"
+    },
+    "Aggressive": {
+      "name": "Agresivo"
+    },
+    "Aloof": {
+      "name": "Distante"
+    },
+    "Anxious": {
+      "name": "Ansioso"
+    },
+    "Arrogant": {
+      "name": "Arrogante"
+    },
+    "Callous": {
+      "name": "Insensible"
+    },
+    "Clueless": {
+      "name": "Despistado"
+    },
+    "Clumsy": {
+      "name": "Torpe"
+    },
+    "Conforming": {
+      "name": "Conformista"
+    },
+    "Critical": {
+      "name": "Crítico"
+    },
+    "Deceitful": {
+      "name": "Mentiroso"
+    },
+    "Dismissive": {
+      "name": "Desdeñoso"
+    },
+    "Dominating": {
+      "name": "Dominante"
+    },
+    "Dull": {
+      "name": "Soso"
+    },
+    "Eccentric": {
+      "name": "Excéntrico"
+    },
+    "Gullible": {
+      "name": "Crédulo"
+    },
+    "Indecisive": {
+      "name": "Indeciso"
+    },
+    "Insecure": {
+      "name": "Inseguro"
+    },
+    "Know-it-all": {
+      "name": "Sabelotodo"
+    },
+    "Lazy": {
+      "name": "Perezoso"
+    },
+    "Manipulative": {
+      "name": "Manipulador"
+    },
+    "Melancholic": {
+      "name": "Melancólico"
+    },
+    "Naive": {
+      "name": "Ingenuo"
+    },
+    "Narcissistic": {
+      "name": "Narcisista"
+    },
+    "Ordinary": {
+      "name": "Corriente"
+    },
+    "Passive": {
+      "name": "Pasivo"
+    },
+    "Prideful": {
+      "name": "Orgulloso"
+    },
+    "Pushover": {
+      "name": "Pusilánime"
+    },
+    "Quiet": {
+      "name": "Callado"
+    },
+    "Reckless": {
+      "name": "Imprudente"
+    },
+    "Secretive": {
+      "name": "Reservado"
+    },
+    "Self-Righteous": {
+      "name": "Moralista"
+    },
+    "Soft": {
+      "name": "Blando"
+    },
+    "Standoffish": {
+      "name": "Huraño"
+    },
+    "Strict": {
+      "name": "Estricto"
+    },
+    "Skeptical": {
+      "name": "Escéptico"
+    }
+  }
+}

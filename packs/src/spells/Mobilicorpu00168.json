@@ -1,0 +1,22 @@
+{
+  "_id": "Mobilicorpu00168",
+  "_key": "!items!Mobilicorpu00168",
+  "name": "Mobilicorpus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Levitates and moves bodies.</p>",
+    "year": 7,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 16900,
+  "ownership": {
+    "default": 0
+  }
+}

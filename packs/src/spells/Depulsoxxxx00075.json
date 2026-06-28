@@ -1,0 +1,22 @@
+{
+  "_id": "Depulsoxxxx00075",
+  "_key": "!items!Depulsoxxxx00075",
+  "name": "Depulso",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Sends the target away from the caster. It is the counter-charm to the Summoning Charm.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7600,
+  "ownership": {
+    "default": 0
+  }
+}

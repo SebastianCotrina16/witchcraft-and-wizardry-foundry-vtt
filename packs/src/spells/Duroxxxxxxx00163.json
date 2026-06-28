@@ -1,0 +1,22 @@
+{
+  "_id": "Duroxxxxxxx00163",
+  "_key": "!items!Duroxxxxxxx00163",
+  "name": "Duro",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Turns an object to stone.</p>",
+    "year": 7,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 16400,
+  "ownership": {
+    "default": 0
+  }
+}

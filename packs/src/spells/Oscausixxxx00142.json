@@ -1,0 +1,22 @@
+{
+  "_id": "Oscausixxxx00142",
+  "_key": "!items!Oscausixxxx00142",
+  "name": "Oscausi",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Seal someone's mouth shut, making it appear it was never there.</p>",
+    "year": 6,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14300,
+  "ownership": {
+    "default": 0
+  }
+}

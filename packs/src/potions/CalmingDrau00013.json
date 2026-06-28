@@ -1,0 +1,21 @@
+{
+  "_id": "CalmingDrau00013",
+  "_key": "!items!CalmingDrau00013",
+  "name": "Calming Draught",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Calms the nerves of an anxious or distressed drinker.</p>",
+    "effect": "Calms the nerves",
+    "quantity": 1,
+    "price": 10
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  }
+}

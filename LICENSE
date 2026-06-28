@@ -1,0 +1,43 @@
+MIT License
+
+Copyright (c) 2026 SebastianCotrina16
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+
+NOTE ON INTELLECTUAL PROPERTY
+
+The MIT license above applies ONLY to the original source code of this Foundry
+VTT system (JavaScript, CSS, templates, and configuration).
+
+This is an unofficial, non-commercial fan project. "Witchcraft and Wizardry"
+and the surrounding setting are derived from J.K. Rowling's Wizarding World.
+All names, trademarks, and copyrights of that setting belong to their
+respective owners.
+
+The compendium content shipped with this system (spell names and descriptions
+under packs/) is transcribed from the community Core Rulebook (v1.4) and the
+broader Wizarding World. It is included solely for private, non-commercial use,
+in the same spirit as that rulebook, which states it "cannot be reproduced for
+the intent of retail sale or personal gain." Nothing here may be used for
+retail sale or personal gain.
+
+All artwork referenced by this system comes from Foundry VTT's built-in icon
+library; no third-party art is redistributed in this repository.

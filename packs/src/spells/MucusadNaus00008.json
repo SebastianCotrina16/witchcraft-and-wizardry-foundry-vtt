@@ -1,0 +1,22 @@
+{
+  "_id": "MucusadNaus00008",
+  "_key": "!items!MucusadNaus00008",
+  "name": "Mucus ad Nauseam",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Gives the victim a nasty cold and an extremely runny nose that can cause the victim to collapse if it is not treated. The cold is accompanied with constant sneezing.</p>",
+    "year": 1,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  }
+}

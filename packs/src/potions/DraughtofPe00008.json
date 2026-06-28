@@ -1,0 +1,21 @@
+{
+  "_id": "DraughtofPe00008",
+  "_key": "!items!DraughtofPe00008",
+  "name": "Draught of Peace",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Relieves anxiety and agitation. Improper brewing can leave the drinker in an irreversible sleep.</p>",
+    "effect": "Relieves anxiety",
+    "quantity": 1,
+    "price": 18
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  }
+}

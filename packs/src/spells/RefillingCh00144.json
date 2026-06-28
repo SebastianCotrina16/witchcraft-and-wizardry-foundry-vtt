@@ -1,0 +1,22 @@
+{
+  "_id": "RefillingCh00144",
+  "_key": "!items!RefillingCh00144",
+  "name": "Refilling Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Refills whatever the caster points at with the drink originally in the container.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14500,
+  "ownership": {
+    "default": 0
+  }
+}

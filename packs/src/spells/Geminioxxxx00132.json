@@ -1,0 +1,22 @@
+{
+  "_id": "Geminioxxxx00132",
+  "_key": "!items!Geminioxxxx00132",
+  "name": "Geminio",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Duplicates the target. When used to duplicate objects indefinitely on purpose, is known as the Gemino Curse.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13300,
+  "ownership": {
+    "default": 0
+  }
+}

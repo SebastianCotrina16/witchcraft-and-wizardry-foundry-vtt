@@ -1,0 +1,22 @@
+{
+  "_id": "BatBogeyHex00030",
+  "_key": "!items!BatBogeyHex00030",
+  "name": "Bat-Bogey Hex",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Transforms the target's bogeys into large bats that fly out of the victim's nose.</p>",
+    "year": 2,
+    "spellType": "hex",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3100,
+  "ownership": {
+    "default": 0
+  }
+}

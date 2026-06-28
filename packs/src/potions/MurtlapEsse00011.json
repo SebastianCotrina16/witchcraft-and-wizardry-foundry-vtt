@@ -1,0 +1,21 @@
+{
+  "_id": "MurtlapEsse00011",
+  "_key": "!items!MurtlapEsse00011",
+  "name": "Murtlap Essence",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>An orange liquid that soothes and heals cuts, abrasions and similar wounds.</p>",
+    "effect": "Soothes cuts and abrasions",
+    "quantity": 1,
+    "price": 6
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Expulsoxxxx00164",
+  "_key": "!items!Expulsoxxxx00164",
+  "name": "Expulso",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Provokes an explosion, unique in that it uses pressure to do so as opposed to heat.</p>",
+    "year": 7,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 16500,
+  "ownership": {
+    "default": 0
+  }
+}

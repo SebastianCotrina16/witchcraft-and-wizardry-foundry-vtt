@@ -1,0 +1,22 @@
+{
+  "_id": "Glisseoxxxx00166",
+  "_key": "!items!Glisseoxxxx00166",
+  "name": "Glisseo",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes the steps on a stairway to flatten into a slide.</p>",
+    "year": 7,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 16700,
+  "ownership": {
+    "default": 0
+  }
+}

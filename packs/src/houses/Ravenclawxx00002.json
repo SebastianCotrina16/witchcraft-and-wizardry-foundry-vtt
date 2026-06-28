@@ -1,0 +1,32 @@
+{
+  "_id": "Ravenclawxx00002",
+  "_key": "!journal!Ravenclawxx00002",
+  "name": "Ravenclaw",
+  "pages": [
+    {
+      "_id": "Ravenclawpa00002",
+      "_key": "!journal.pages!Ravenclawxx00002.Ravenclawpa00002",
+      "name": "Ravenclaw",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>House Ghost:</strong> The Grey Lady</p><p><strong>Common Room:</strong> Top of Ravenclaw Tower</p><p><em>Entrance by riddle.</em></p><p><strong>Choose one benefit:</strong></p><ul><li>Automatically succeed on an I Read About That move once per day.</li><li>Shake off the Dazed condition once per day.</li><li>Take +1 forward to all Mind rolls for 1 scene, once per day.</li></ul>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

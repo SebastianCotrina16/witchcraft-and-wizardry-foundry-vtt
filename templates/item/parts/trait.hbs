@@ -1,0 +1,15 @@
+{{!-- Trait body: positive/negative and locked flag. --}}
+<div class="waw-field-grid">
+  <label>{{localize "WAW.Field.TraitKind"}}
+    <select name="system.kind" {{#unless editable}}disabled{{/unless}}>
+      {{#each config.traitKinds as |labelKey key|}}
+      <option value="{{key}}" {{#if (wawEq @root.system.kind key)}}selected{{/if}}>{{localize labelKey}}</option>
+      {{/each}}
+    </select>
+  </label>
+  <label class="waw-checkbox">
+    <input type="checkbox" name="system.locked" {{checked system.locked}}
+           {{#unless editable}}disabled{{/unless}}>
+    {{localize "WAW.Field.Locked"}}
+  </label>
+</div>

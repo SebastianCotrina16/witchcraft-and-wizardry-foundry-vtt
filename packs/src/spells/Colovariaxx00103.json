@@ -1,0 +1,22 @@
+{
+  "_id": "Colovariaxx00103",
+  "_key": "!items!Colovariaxx00103",
+  "name": "Colovaria",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Changes the target's color.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10400,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Flagratexxx00111",
+  "_key": "!items!Flagratexxx00111",
+  "name": "Flagrate",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Writes in midair with fiery marks.</p>",
+    "year": 5,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11200,
+  "ownership": {
+    "default": 0
+  }
+}

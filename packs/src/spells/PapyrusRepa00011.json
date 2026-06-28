@@ -1,0 +1,22 @@
+{
+  "_id": "PapyrusRepa00011",
+  "_key": "!items!PapyrusRepa00011",
+  "name": "Papyrus Reparo",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Mends torn pieces of paper.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  }
+}

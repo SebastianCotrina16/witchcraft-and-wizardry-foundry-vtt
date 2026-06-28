@@ -1,0 +1,22 @@
+{
+  "_id": "Meteolojinx00139",
+  "_key": "!items!Meteolojinx00139",
+  "name": "Meteolojinx Recanto",
+  "type": "spell",
+  "img": "icons/svg/mage-shield.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes weather effects caused by jinxes to cease.</p>",
+    "year": 6,
+    "spellType": "counterCharm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  }
+}

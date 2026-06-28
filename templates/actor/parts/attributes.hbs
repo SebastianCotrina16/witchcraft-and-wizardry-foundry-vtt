@@ -1,0 +1,16 @@
+{{!-- Core attributes. Editable value + derived modifier (value minus active condition penalties). --}}
+<section class="waw-attributes">
+  {{#each config.attributes as |labelKey key|}}
+  {{#with (lookup @root.system.attributes key) as |attr|}}
+  <div class="waw-attribute">
+    <label class="waw-attribute-label">{{localize labelKey}}</label>
+    <input type="number" class="waw-attribute-value"
+           name="{{wawConcat "system.attributes." key ".value"}}"
+           value="{{attr.value}}" step="1"
+           min="{{@root.config.attributeRange.min}}" max="{{@root.config.attributeRange.max}}"
+           {{#unless @root.editable}}disabled{{/unless}}>
+    <span class="waw-attribute-mod" data-tooltip="WAW.Attribute.ModHint">{{wawSigned attr.mod}}</span>
+  </div>
+  {{/with}}
+  {{/each}}
+</section>

@@ -1,0 +1,22 @@
+{
+  "_id": "Silencioxxx00148",
+  "_key": "!items!Silencioxxx00148",
+  "name": "Silencio",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Makes something silent.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14900,
+  "ownership": {
+    "default": 0
+  }
+}

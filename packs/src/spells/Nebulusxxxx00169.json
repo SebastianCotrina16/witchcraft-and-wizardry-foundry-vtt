@@ -1,0 +1,22 @@
+{
+  "_id": "Nebulusxxxx00169",
+  "_key": "!items!Nebulusxxxx00169",
+  "name": "Nebulus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Creates fog from the tip of the wand.</p>",
+    "year": 7,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  }
+}

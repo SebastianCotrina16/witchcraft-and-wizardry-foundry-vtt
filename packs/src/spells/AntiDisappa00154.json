@@ -1,0 +1,22 @@
+{
+  "_id": "AntiDisappa00154",
+  "_key": "!items!AntiDisappa00154",
+  "name": "Anti-Disapparition Jinx",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Prevents Disapparation in an area. It is used to entrap an enemy in an area.</p>",
+    "year": 7,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15500,
+  "ownership": {
+    "default": 0
+  }
+}

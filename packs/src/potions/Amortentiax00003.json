@@ -1,0 +1,21 @@
+{
+  "_id": "Amortentiax00003",
+  "_key": "!items!Amortentiax00003",
+  "name": "Amortentia",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>The most powerful love potion in the world; causes intense infatuation or obsession. It does not create real love.</p>",
+    "effect": "Powerful love potion",
+    "quantity": 1,
+    "price": 60
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  }
+}

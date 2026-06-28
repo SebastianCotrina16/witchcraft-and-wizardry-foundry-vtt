@@ -1,0 +1,32 @@
+{
+  "_id": "Hufflepuffx00001",
+  "_key": "!journal!Hufflepuffx00001",
+  "name": "Hufflepuff",
+  "pages": [
+    {
+      "_id": "Hufflepuffp00001",
+      "_key": "!journal.pages!Hufflepuffx00001.Hufflepuffp00001",
+      "name": "Hufflepuff",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>House Ghost:</strong> The Fat Friar</p><p><strong>Common Room:</strong> Large barrels in the kitchen corridor</p><p><em>Entrance by rhythmic tapping.</em></p><p><strong>Choose one benefit:</strong></p><ul><li>Automatically succeed on a Treat Wounds move once per day.</li><li>Shake off the Exhausted condition once per day.</li><li>Take +1 forward to all Soul rolls for 1 scene, once per day.</li></ul>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

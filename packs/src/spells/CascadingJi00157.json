@@ -1,0 +1,22 @@
+{
+  "_id": "CascadingJi00157",
+  "_key": "!items!CascadingJi00157",
+  "name": "Cascading Jinx",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Attacks multiple opponents in close proximity to each other.</p>",
+    "year": 7,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15800,
+  "ownership": {
+    "default": 0
+  }
+}

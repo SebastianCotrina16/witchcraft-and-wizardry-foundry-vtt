@@ -1,0 +1,33 @@
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Compiled LevelDB packs ARE committed (data: *.ldb / *.log / CURRENT / MANIFEST).
+# Ignore only the volatile runtime files LevelDB recreates on open.
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+dist/
+build/
+
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.log
+*.tmp
+.cache/
+
+foundrydata/
+
+.env
+.env.local
+
+# Keep LevelDB write-ahead logs inside committed packs (overrides *.log above).
+!packs/**/*.log

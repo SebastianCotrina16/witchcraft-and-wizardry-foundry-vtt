@@ -1,0 +1,21 @@
+{
+  "_id": "DraughtofLi00007",
+  "_key": "!items!DraughtofLi00007",
+  "name": "Draught of Living Death",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>An extremely powerful sleeping draught that puts the drinker into a death-like slumber.</p>",
+    "effect": "Powerful sleeping draught",
+    "quantity": 1,
+    "price": 35
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  }
+}

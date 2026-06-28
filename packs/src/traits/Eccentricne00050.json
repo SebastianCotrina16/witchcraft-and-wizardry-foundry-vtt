@@ -1,0 +1,20 @@
+{
+  "_id": "Eccentricne00050",
+  "_key": "!items!Eccentricne00050",
+  "name": "Eccentric",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5100,
+  "ownership": {
+    "default": 0
+  }
+}

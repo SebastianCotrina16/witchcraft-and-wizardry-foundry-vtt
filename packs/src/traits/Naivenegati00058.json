@@ -1,0 +1,20 @@
+{
+  "_id": "Naivenegati00058",
+  "_key": "!items!Naivenegati00058",
+  "name": "Naive",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5900,
+  "ownership": {
+    "default": 0
+  }
+}

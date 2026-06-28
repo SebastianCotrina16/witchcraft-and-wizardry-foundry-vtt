@@ -1,0 +1,24 @@
+{{!-- Spell body: year, classification, spell-bank / signature flags. --}}
+<div class="waw-field-grid">
+  <label>{{localize "WAW.Field.Year"}}
+    <input type="number" name="system.year" value="{{system.year}}" min="1" max="7"
+           {{#unless editable}}disabled{{/unless}}>
+  </label>
+  <label>{{localize "WAW.Field.SpellType"}}
+    <select name="system.spellType" {{#unless editable}}disabled{{/unless}}>
+      {{#each config.spellTypes as |labelKey key|}}
+      <option value="{{key}}" {{#if (wawEq @root.system.spellType key)}}selected{{/if}}>{{localize labelKey}}</option>
+      {{/each}}
+    </select>
+  </label>
+  <label class="waw-checkbox">
+    <input type="checkbox" name="system.inSpellBank" {{checked system.inSpellBank}}
+           {{#unless editable}}disabled{{/unless}}>
+    {{localize "WAW.Field.InSpellBank"}}
+  </label>
+  <label class="waw-checkbox">
+    <input type="checkbox" name="system.isSignature" {{checked system.isSignature}}
+           {{#unless editable}}disabled{{/unless}}>
+    {{localize "WAW.Field.Signature"}}
+  </label>
+</div>

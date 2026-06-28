@@ -1,0 +1,22 @@
+{
+  "_id": "Lumosxxxxxx00007",
+  "_key": "!items!Lumosxxxxxx00007",
+  "name": "Lumos",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Illuminates the tip of the caster's wand, allowing the caster to see in the dark.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  }
+}

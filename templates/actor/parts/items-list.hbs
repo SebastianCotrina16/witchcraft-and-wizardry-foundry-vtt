@@ -1,0 +1,43 @@
+{{!--
+  Reusable owned-item list.
+  Expected hash arguments:
+    items  - array of items to render
+    type   - item subtype (used for the "create" button)
+    label  - localization key for the section heading
+--}}
+<section class="waw-items" data-item-type="{{type}}">
+  <header class="waw-section-header">
+    <span>{{localize label}}</span>
+    {{#if @root.editable}}
+    <button type="button" class="waw-icon-btn" data-action="createItem" data-type="{{type}}"
+            data-tooltip="WAW.Action.Create">
+      <i class="fa-solid fa-plus"></i>
+    </button>
+    {{/if}}
+  </header>
+  <ul class="waw-item-list">
+    {{#each items as |item|}}
+    <li class="waw-item-row" data-item-id="{{item.id}}">
+      <img class="waw-item-img" src="{{item.img}}" alt="{{item.name}}">
+      <span class="waw-item-name">{{item.name}}</span>
+      <div class="waw-item-controls">
+        {{#if (wawOr (wawEq item.type "spell") (wawEq item.type "move"))}}
+        <button type="button" class="waw-icon-btn" data-action="useItem" data-tooltip="WAW.Action.Roll">
+          <i class="fa-solid fa-dice"></i>
+        </button>
+        {{/if}}
+        <button type="button" class="waw-icon-btn" data-action="editItem" data-tooltip="WAW.Action.Edit">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </button>
+        {{#if @root.editable}}
+        <button type="button" class="waw-icon-btn" data-action="deleteItem" data-tooltip="WAW.Action.Delete">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+        {{/if}}
+      </div>
+    </li>
+    {{else}}
+    <li class="waw-item-empty">{{localize "WAW.Items.Empty"}}</li>
+    {{/each}}
+  </ul>
+</section>

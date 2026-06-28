@@ -1,0 +1,22 @@
+{
+  "_id": "Immobulusxx00039",
+  "_key": "!items!Immobulusxx00039",
+  "name": "Immobulus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Immobilizes and stops the actions of the target. It works both on living and inanimate things.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Episkeyxxxx00129",
+  "_key": "!items!Episkeyxxxx00129",
+  "name": "Episkey",
+  "type": "spell",
+  "img": "icons/svg/heal.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Used to heal minor injuries.</p>",
+    "year": 6,
+    "spellType": "healing",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  }
+}

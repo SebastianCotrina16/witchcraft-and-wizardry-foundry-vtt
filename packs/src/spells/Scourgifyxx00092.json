@@ -1,0 +1,22 @@
+{
+  "_id": "Scourgifyxx00092",
+  "_key": "!items!Scourgifyxx00092",
+  "name": "Scourgify",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Cleans objects.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9300,
+  "ownership": {
+    "default": 0
+  }
+}

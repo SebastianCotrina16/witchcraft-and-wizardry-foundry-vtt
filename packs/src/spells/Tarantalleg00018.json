@@ -1,0 +1,22 @@
+{
+  "_id": "Tarantalleg00018",
+  "_key": "!items!Tarantalleg00018",
+  "name": "Tarantallegra",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Makes a target's legs spasm wildly out of control, making it appear as though they are dancing.</p>",
+    "year": 1,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  }
+}

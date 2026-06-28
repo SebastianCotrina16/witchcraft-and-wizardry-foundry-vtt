@@ -1,0 +1,22 @@
+{
+  "_id": "Badgeringxx00001",
+  "_key": "!items!Badgeringxx00001",
+  "name": "Badgering",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Turns things into badgers.</p>",
+    "year": 1,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  }
+}

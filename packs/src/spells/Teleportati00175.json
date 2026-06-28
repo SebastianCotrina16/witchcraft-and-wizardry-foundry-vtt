@@ -1,0 +1,22 @@
+{
+  "_id": "Teleportati00175",
+  "_key": "!items!Teleportati00175",
+  "name": "Teleportation Spell",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Vanishes objects which then appear elsewhere.</p>",
+    "year": 7,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17600,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "PolyjuicePo00000",
+  "_key": "!items!PolyjuicePo00000",
+  "name": "Polyjuice Potion",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Transforms the drinker into the physical form of another person for a limited time. Brewing is complex and takes weeks.</p>",
+    "effect": "Transform into another person",
+    "quantity": 1,
+    "price": 50
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  }
+}

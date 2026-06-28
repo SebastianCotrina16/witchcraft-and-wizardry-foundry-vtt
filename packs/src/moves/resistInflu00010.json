@@ -1,0 +1,25 @@
+{
+  "_id": "resistInflu00010",
+  "_key": "!items!resistInflu00010",
+  "name": "Resist Influence",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Soul when you try to resist someone's influence.</p><p><strong>10+:</strong> You resist their influence and take +1 forward if they try to influence you again.</p><p><strong>7-9:</strong> You resist, but it lingers: take -1 forward to resisting further influence from them.</p><p><strong>6-:</strong> You listen intently to their influence and do what they say.</p>",
+    "key": "resistInfluence",
+    "attribute": "soul",
+    "results": {
+      "success": "You resist their influence and take +1 forward if they try to influence you again.",
+      "partial": "You resist, but it lingers: take -1 forward to resisting further influence from them.",
+      "failure": "You listen intently to their influence and do what they say."
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  }
+}

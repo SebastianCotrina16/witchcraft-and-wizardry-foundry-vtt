@@ -1,0 +1,22 @@
+{
+  "_id": "Riddikulusx00067",
+  "_key": "!items!Riddikulusx00067",
+  "name": "Riddikulus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>A spell used when fighting a Boggart, \"Riddikulus\" forces the Boggart to take the appearance of an object the caster is focusing on. Best results can be achieved if the caster is focusing on something humorous, with the desire that laughter will weaken the Boggart.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6800,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "CrinusMutox00105",
+  "_key": "!items!CrinusMutox00105",
+  "name": "Crinus Muto",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Used to transfigure the color and style of one's hair.</p>",
+    "year": 5,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10600,
+  "ownership": {
+    "default": 0
+  }
+}

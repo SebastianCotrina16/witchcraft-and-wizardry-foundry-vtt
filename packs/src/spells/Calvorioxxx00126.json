@@ -1,0 +1,22 @@
+{
+  "_id": "Calvorioxxx00126",
+  "_key": "!items!Calvorioxxx00126",
+  "name": "Calvorio",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Removes the victim's hair.</p>",
+    "year": 6,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 12700,
+  "ownership": {
+    "default": 0
+  }
+}

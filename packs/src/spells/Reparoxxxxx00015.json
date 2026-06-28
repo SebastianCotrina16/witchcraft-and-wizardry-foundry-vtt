@@ -1,0 +1,22 @@
+{
+  "_id": "Reparoxxxxx00015",
+  "_key": "!items!Reparoxxxxx00015",
+  "name": "Reparo",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Seamlessly repairs broken objects.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  }
+}

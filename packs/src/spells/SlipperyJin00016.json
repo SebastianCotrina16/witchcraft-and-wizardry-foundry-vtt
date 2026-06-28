@@ -1,0 +1,22 @@
+{
+  "_id": "SlipperyJin00016",
+  "_key": "!items!SlipperyJin00016",
+  "name": "Slippery Jinx",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Makes an object slippery and difficult to hold.</p>",
+    "year": 1,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  }
+}

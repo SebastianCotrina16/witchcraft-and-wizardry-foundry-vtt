@@ -1,0 +1,91 @@
+{
+  "label": "Pociones",
+  "collection": "witchcraft-and-wizardry.potions",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "effect": "system.effect"
+  },
+  "entries": {
+    "Polyjuice Potion": {
+      "name": "Poción Multijugos",
+      "description": "<p>Transforma al bebedor en la forma física de otra persona durante un tiempo limitado. Su elaboración es compleja y tarda semanas.</p>",
+      "effect": "Transformarse en otra persona"
+    },
+    "Veritaserum": {
+      "name": "Veritaserum",
+      "description": "<p>Un suero de la verdad incoloro e inodoro; obliga al bebedor a responder con sinceridad.</p>",
+      "effect": "Suero de la verdad"
+    },
+    "Felix Felicis": {
+      "name": "Felix Felicis",
+      "description": "<p>Concede al bebedor un periodo extraordinariamente afortunado. Muy tóxico en exceso.</p>",
+      "effect": "Suerte líquida"
+    },
+    "Amortentia": {
+      "name": "Amortentia",
+      "description": "<p>El filtro de amor más poderoso del mundo; provoca un enamoramiento u obsesión intensos. No crea amor verdadero.</p>",
+      "effect": "Filtro de amor poderoso"
+    },
+    "Wolfsbane Potion": {
+      "name": "Poción Matalobos",
+      "description": "<p>Permite a un hombre lobo conservar su mente humana durante la transformación. Muy difícil de elaborar.</p>",
+      "effect": "Suaviza la transformación licántropa"
+    },
+    "Pepperup Potion": {
+      "name": "Poción Pimentónica",
+      "description": "<p>Calienta el cuerpo y cura el resfriado común, dejando salir vapor de las orejas durante horas.</p>",
+      "effect": "Cura el resfriado común"
+    },
+    "Skele-Gro": {
+      "name": "Crecehuesos",
+      "description": "<p>Regenera huesos perdidos o eliminados a lo largo de una noche dolorosa.</p>",
+      "effect": "Regenera huesos"
+    },
+    "Draught of Living Death": {
+      "name": "Filtro de Muertos en Vida",
+      "description": "<p>Un somnífero extremadamente potente que sume al bebedor en un sueño cadavérico.</p>",
+      "effect": "Somnífero poderoso"
+    },
+    "Draught of Peace": {
+      "name": "Filtro de Paz",
+      "description": "<p>Alivia la ansiedad y la agitación. Una mala elaboración puede dejar al bebedor en un sueño irreversible.</p>",
+      "effect": "Alivia la ansiedad"
+    },
+    "Mandrake Restorative Draught": {
+      "name": "Filtro Reconstituyente de Mandrágora",
+      "description": "<p>Devuelve a su estado original a quienes han sido petrificados o transfigurados.</p>",
+      "effect": "Cura la petrificación"
+    },
+    "Wiggenweld Potion": {
+      "name": "Poción Wiggenweld",
+      "description": "<p>Restaura la vitalidad y cura heridas; puede despertar de un sueño mágico.</p>",
+      "effect": "Poción curativa"
+    },
+    "Murtlap Essence": {
+      "name": "Esencia de Murtlap",
+      "description": "<p>Un líquido anaranjado que calma y cura cortes, rozaduras y heridas similares.</p>",
+      "effect": "Alivia cortes y rozaduras"
+    },
+    "Blood-Replenishing Potion": {
+      "name": "Poción Reabastecedora de Sangre",
+      "description": "<p>Repone la sangre perdida por una herida en poco tiempo.</p>",
+      "effect": "Repone la sangre perdida"
+    },
+    "Calming Draught": {
+      "name": "Filtro Calmante",
+      "description": "<p>Calma los nervios de un bebedor ansioso o angustiado.</p>",
+      "effect": "Calma los nervios"
+    },
+    "Strengthening Solution": {
+      "name": "Solución Fortalecedora",
+      "description": "<p>Otorga al bebedor mayor fuerza física durante un tiempo.</p>",
+      "effect": "Aumenta la fuerza"
+    },
+    "Antidote to Common Poisons": {
+      "name": "Antídoto para Venenos Comunes",
+      "description": "<p>Un remedio a base de bezoar que neutraliza la mayoría de los venenos comunes.</p>",
+      "effect": "Neutraliza venenos comunes"
+    }
+  }
+}

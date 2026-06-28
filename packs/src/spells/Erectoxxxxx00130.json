@@ -1,0 +1,22 @@
+{
+  "_id": "Erectoxxxxx00130",
+  "_key": "!items!Erectoxxxxx00130",
+  "name": "Erecto",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Used to erect a tent or other upright structure.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13100,
+  "ownership": {
+    "default": 0
+  }
+}

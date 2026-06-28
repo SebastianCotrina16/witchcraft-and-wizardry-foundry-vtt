@@ -1,0 +1,22 @@
+{
+  "_id": "CapaciousEx00156",
+  "_key": "!items!CapaciousEx00156",
+  "name": "Capacious Extremis",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Expands the internal dimensions of an object without affecting the external dimensions, enhancing its capacity, and rendering its contents lighter.</p>",
+    "year": 7,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15700,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "Veritaserum00001",
+  "_key": "!items!Veritaserum00001",
+  "name": "Veritaserum",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>A colourless, odourless truth serum; the drinker is compelled to answer questions truthfully.</p>",
+    "effect": "Truth serum",
+    "quantity": 1,
+    "price": 40
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  }
+}

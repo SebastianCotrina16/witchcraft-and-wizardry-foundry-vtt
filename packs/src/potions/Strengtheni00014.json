@@ -1,0 +1,21 @@
+{
+  "_id": "Strengtheni00014",
+  "_key": "!items!Strengtheni00014",
+  "name": "Strengthening Solution",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Grants the drinker enhanced physical strength for a time.</p>",
+    "effect": "Enhances strength",
+    "quantity": 1,
+    "price": 16
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "Pushoverneg00063",
+  "_key": "!items!Pushoverneg00063",
+  "name": "Pushover",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6400,
+  "ownership": {
+    "default": 0
+  }
+}

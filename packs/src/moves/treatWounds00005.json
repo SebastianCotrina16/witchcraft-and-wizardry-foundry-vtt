@@ -1,0 +1,25 @@
+{
+  "_id": "treatWounds00005",
+  "_key": "!items!treatWounds00005",
+  "name": "Treat Wounds",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Heart when you take time to treat someone's wounds with items, potions or physical means.</p><p><strong>10+:</strong> You heal one condition.</p><p><strong>7-9:</strong> Choose one: you jerry-rig something temporary that won't last; it costs you something; it takes all your concentration, taking longer and leaving you vulnerable.</p>",
+    "key": "treatWounds",
+    "attribute": "heart",
+    "results": {
+      "success": "You heal one condition.",
+      "partial": "Choose one: you jerry-rig something temporary that won't last; it costs you something; it takes all your concentration, taking longer and leaving you vulnerable.",
+      "failure": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "Knowitallne00054",
+  "_key": "!items!Knowitallne00054",
+  "name": "Know-it-all",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5500,
+  "ownership": {
+    "default": 0
+  }
+}

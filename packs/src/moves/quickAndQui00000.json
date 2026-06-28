@@ -1,0 +1,25 @@
+{
+  "_id": "quickAndQui00000",
+  "_key": "!items!quickAndQui00000",
+  "name": "Quick And Quiet",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Body when you try to move quickly and/or quietly.</p><p><strong>10+:</strong> You move quickly and go unnoticed.</p><p><strong>7-9:</strong> You move quickly or quietly — which is it?</p>",
+    "key": "quickAndQuiet",
+    "attribute": "body",
+    "results": {
+      "success": "You move quickly and go unnoticed.",
+      "partial": "You move quickly or quietly — which is it?",
+      "failure": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Muffliatoxx00116",
+  "_key": "!items!Muffliatoxx00116",
+  "name": "Muffliato",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Prevents others from hearing nearby conversations by filling peoples' ears with an unidentifiable buzzing.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11700,
+  "ownership": {
+    "default": 0
+  }
+}

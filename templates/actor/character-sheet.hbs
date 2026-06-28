@@ -1,0 +1,322 @@
+{{!-- Character (student) sheet — elegant tabbed layout. --}}
+<div class="waw-sheet waw-character">
+
+  {{!-- ── Banner ─────────────────────────────────────────────── --}}
+  <header class="waw-banner waw-house-{{system.details.house}}">
+    <div class="waw-crest">
+      <img class="waw-portrait" src="{{actor.img}}" data-edit="img" alt="{{actor.name}}">
+    </div>
+
+    <div class="waw-banner-main">
+      <input class="waw-name" type="text" name="name" value="{{actor.name}}"
+             placeholder="{{localize "WAW.Field.Name"}}" {{#unless editable}}disabled{{/unless}}>
+
+      <div class="waw-pills">
+        <label class="waw-pill">
+          <span>{{localize "WAW.Field.House"}}</span>
+          <select name="system.details.house" {{#unless editable}}disabled{{/unless}}>
+            {{#each config.houses as |labelKey key|}}
+            <option value="{{key}}" {{#if (wawEq @root.system.details.house key)}}selected{{/if}}>{{localize labelKey}}</option>
+            {{/each}}
+          </select>
+        </label>
+        <label class="waw-pill">
+          <span>{{localize "WAW.Field.Heritage"}}</span>
+          <select name="system.details.heritage" {{#unless editable}}disabled{{/unless}}>
+            {{#each config.heritages as |labelKey key|}}
+            <option value="{{key}}" {{#if (wawEq @root.system.details.heritage key)}}selected{{/if}}>{{localize labelKey}}</option>
+            {{/each}}
+          </select>
+        </label>
+        <label class="waw-pill waw-pill-sm">
+          <span>{{localize "WAW.Field.Year"}}</span>
+          <input type="number" name="system.details.year" value="{{system.details.year}}" min="1" max="7"
+                 {{#unless editable}}disabled{{/unless}}>
+        </label>
+        <label class="waw-pill waw-pill-sm">
+          <span>{{localize "WAW.Field.Galleons"}}</span>
+          <input type="number" name="system.galleons" value="{{system.galleons}}" min="0"
+                 {{#unless editable}}disabled{{/unless}}>
+        </label>
+      </div>
+    </div>
+
+    <div class="waw-banner-side">
+      {{#if editable}}
+      <button type="button" class="waw-wizard-launch" data-action="openWizard" data-tooltip="WAW.Wizard.Title">
+        <i class="fa-solid fa-hat-wizard"></i>
+      </button>
+      {{/if}}
+      <div class="waw-xp">
+        <span class="waw-xp-label">{{localize "WAW.Section.Experience"}}</span>
+        <div class="waw-xp-track">
+          {{#each (wawRange config.experienceBoxes) as |i|}}
+          <button type="button" class="waw-xp-pip {{#if (wawLt i @root.system.experience.value)}}filled{{/if}}"
+                  data-action="setExperience" data-value="{{wawAdd i 1}}"
+                  {{#unless @root.editable}}disabled{{/unless}}></button>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {{!-- ── Conditions strip ───────────────────────────────────── --}}
+  <div class="waw-condition-strip {{#if system.isOut}}is-out{{/if}}">
+    {{#each config.conditions as |cfg key|}}
+    <button type="button" class="waw-cond-pill {{#if (lookup @root.system.conditions key)}}active{{/if}}"
+            data-action="toggleCondition" data-condition="{{key}}"
+            data-tooltip="{{localize (wawConcat "WAW.Attribute." (wawCapitalize cfg.attribute))}} −2"
+            {{#unless @root.editable}}disabled{{/unless}}>
+      {{localize cfg.label}}
+    </button>
+    {{/each}}
+    {{#if system.isOut}}<span class="waw-out-flag">{{localize "WAW.Condition.Out"}}</span>{{/if}}
+  </div>
+
+  {{!-- ── Tab navigation ─────────────────────────────────────── --}}
+  <nav class="waw-tabs">
+    <button type="button" class="waw-tab" data-tab-target="stats"><i class="fa-solid fa-hand-fist"></i> {{localize "WAW.Tab.Stats"}}</button>
+    <button type="button" class="waw-tab" data-tab-target="magic"><i class="fa-solid fa-wand-sparkles"></i> {{localize "WAW.Tab.Magic"}}</button>
+    <button type="button" class="waw-tab" data-tab-target="character"><i class="fa-solid fa-user-pen"></i> {{localize "WAW.Tab.Character"}}</button>
+    <button type="button" class="waw-tab" data-tab-target="inventory"><i class="fa-solid fa-bag-shopping"></i> {{localize "WAW.Tab.Inventory"}}</button>
+    <button type="button" class="waw-tab" data-tab-target="story"><i class="fa-solid fa-feather"></i> {{localize "WAW.Tab.Story"}}</button>
+  </nav>
+
+  {{!-- ══ TAB: Stats — attributes with their moves ═══════════════ --}}
+  <section class="waw-tab-panel" data-tab-panel="stats">
+    <div class="waw-attr-grid">
+      {{#each config.attributes as |labelKey attrKey|}}
+      {{#with (lookup @root.system.attributes attrKey) as |attr|}}
+      <div class="waw-attr-card">
+        <header class="waw-attr-head">
+          <span class="waw-attr-name">{{localize labelKey}}</span>
+          <span class="waw-attr-mod">{{wawSigned attr.mod}}</span>
+        </header>
+        <input type="number" class="waw-attr-value" name="{{wawConcat "system.attributes." attrKey ".value"}}"
+               value="{{attr.value}}" step="1"
+               min="{{@root.config.attributeRange.min}}" max="{{@root.config.attributeRange.max}}"
+               {{#unless @root.editable}}disabled{{/unless}}>
+        <div class="waw-attr-moves">
+          {{#each @root.moves as |move moveKey|}}
+          {{#if (wawEq move.attribute attrKey)}}
+          <button type="button" class="waw-move-chip" data-action="rollMove" data-move="{{moveKey}}">
+            {{localize move.label}}
+          </button>
+          {{/if}}
+          {{/each}}
+        </div>
+      </div>
+      {{/with}}
+      {{/each}}
+    </div>
+  </section>
+
+  {{!-- ══ TAB: Magic — spell bank + spells ═══════════════════════ --}}
+  <section class="waw-tab-panel" data-tab-panel="magic">
+    <div class="waw-card">
+      <header class="waw-section-header">
+        <span><i class="fa-solid fa-star"></i> {{localize "WAW.Section.SpellBank"}}</span>
+        <small class="waw-hint">{{localize "WAW.SpellBank.Hint"}}</small>
+      </header>
+      <ul class="waw-spell-list">
+        {{#each spellBank as |spell|}}
+        {{> "systems/witchcraft-and-wizardry/templates/actor/parts/spell-row.hbs" spell=spell}}
+        {{else}}
+        <li class="waw-item-empty">{{localize "WAW.Items.Empty"}}</li>
+        {{/each}}
+      </ul>
+    </div>
+
+    <div class="waw-card">
+      <header class="waw-section-header">
+        <span>{{localize "WAW.Section.Spells"}}</span>
+        {{#if editable}}
+        <button type="button" class="waw-icon-btn" data-action="createItem" data-type="spell" data-tooltip="WAW.Action.Create">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        {{/if}}
+      </header>
+      <ul class="waw-spell-list">
+        {{#each otherSpells as |spell|}}
+        {{> "systems/witchcraft-and-wizardry/templates/actor/parts/spell-row.hbs" spell=spell}}
+        {{else}}
+        <li class="waw-item-empty">{{localize "WAW.Items.Empty"}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </section>
+
+  {{!-- ══ TAB: Character — traits, relationships, house, wand, pet ══ --}}
+  <section class="waw-tab-panel" data-tab-panel="character">
+    <div class="waw-two-col">
+      {{!-- Traits --}}
+      <div class="waw-card">
+        <header class="waw-section-header">
+          <span>{{localize "WAW.Trait.Positive"}} / {{localize "WAW.Trait.Negative"}}</span>
+          {{#if editable}}
+          <button type="button" class="waw-icon-btn" data-action="createItem" data-type="trait" data-tooltip="WAW.Action.Create">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          {{/if}}
+        </header>
+        <div class="waw-trait-cols">
+          <ul class="waw-trait-list waw-trait-pos">
+            {{#each itemsByType.trait as |t|}}{{#if (wawEq t.system.kind "positive")}}
+            {{> "systems/witchcraft-and-wizardry/templates/actor/parts/trait-row.hbs" t=t}}
+            {{/if}}{{/each}}
+          </ul>
+          <ul class="waw-trait-list waw-trait-neg">
+            {{#each itemsByType.trait as |t|}}{{#if (wawEq t.system.kind "negative")}}
+            {{> "systems/witchcraft-and-wizardry/templates/actor/parts/trait-row.hbs" t=t}}
+            {{/if}}{{/each}}
+          </ul>
+        </div>
+      </div>
+
+      {{!-- Relationships --}}
+      <div class="waw-card">
+        <header class="waw-section-header">
+          <span>{{localize "WAW.Section.Relationships"}}</span>
+          {{#if editable}}
+          <button type="button" class="waw-icon-btn" data-action="addRelationship" data-tooltip="WAW.Action.AddRelationship">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          {{/if}}
+        </header>
+        <ul class="waw-rel-list">
+          {{#each system.relationships as |rel idx|}}
+          <li class="waw-rel-row">
+            <input type="text" data-rel-index="{{idx}}" data-rel-field="name" value="{{rel.name}}"
+                   placeholder="{{localize "WAW.Field.RelationshipName"}}" {{#unless @root.editable}}disabled{{/unless}}>
+            <input type="number" class="waw-rel-score" data-rel-index="{{idx}}" data-rel-field="score" value="{{rel.score}}"
+                   step="1" {{#unless @root.editable}}disabled{{/unless}}>
+            {{#if @root.editable}}
+            <button type="button" class="waw-icon-btn" data-action="deleteRelationship" data-index="{{idx}}" data-tooltip="WAW.Action.Delete">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            {{/if}}
+          </li>
+          {{else}}
+          <li class="waw-item-empty">{{localize "WAW.Items.Empty"}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+
+    {{!-- Heritage (Linaje) — guided creation automation --}}
+    {{#if heritageInfo}}
+    <div class="waw-card waw-heritage">
+      <header class="waw-section-header">
+        <span>{{localize "WAW.Field.Heritage"}}: {{localize (lookup config.heritages system.details.heritage)}}</span>
+        {{#if editable}}
+        <span class="waw-heritage-actions">
+          <button type="button" class="waw-mini-btn" data-action="applyHeritage">{{localize "WAW.Action.ApplyHeritage"}}</button>
+          <button type="button" class="waw-mini-btn" data-action="rollGalleons" data-tooltip="WAW.Action.RollGalleons"><i class="fa-solid fa-coins"></i></button>
+        </span>
+        {{/if}}
+      </header>
+      <div class="waw-heritage-spread">
+        {{#each config.attributes as |labelKey key|}}
+        <span class="waw-heritage-attr"><b>{{localize labelKey}}</b> {{wawSigned (lookup @root.heritageInfo.attributes key)}}</span>
+        {{/each}}
+        <span class="waw-heritage-attr"><b>{{localize "WAW.Field.Galleons"}}</b> {{heritageInfo.galleons}}</span>
+      </div>
+      {{#if heritageInfo.bonusOptions}}
+      <label class="waw-heritage-note"><b>+</b>
+        <select name="system.details.heritageBonus" {{#unless editable}}disabled{{/unless}}>
+          <option value="">{{localize "WAW.HeritageInfo.Choose"}}</option>
+          {{#each heritageInfo.bonusOptions as |opt|}}
+          <option value="{{opt}}" {{#if (wawEq @root.system.details.heritageBonus opt)}}selected{{/if}}>{{localize opt}}</option>
+          {{/each}}
+        </select>
+      </label>
+      <label class="waw-heritage-note"><b>−</b>
+        <select name="system.details.heritageDrawback" {{#unless editable}}disabled{{/unless}}>
+          <option value="">{{localize "WAW.HeritageInfo.Choose"}}</option>
+          {{#each heritageInfo.drawbackOptions as |opt|}}
+          <option value="{{opt}}" {{#if (wawEq @root.system.details.heritageDrawback opt)}}selected{{/if}}>{{localize opt}}</option>
+          {{/each}}
+        </select>
+      </label>
+      {{else}}
+      <p class="waw-heritage-note"><b>+</b> {{localize heritageInfo.bonus}}</p>
+      <p class="waw-heritage-note"><b>−</b> {{localize heritageInfo.drawback}}</p>
+      {{/if}}
+    </div>
+    {{/if}}
+
+    {{!-- House benefit (dropdown driven by the selected house) --}}
+    <div class="waw-card">
+      <header class="waw-section-header"><span>{{localize "WAW.Section.HouseBenefit"}}</span></header>
+      {{#if houseBenefits.length}}
+      <select name="system.details.houseBenefit" {{#unless editable}}disabled{{/unless}}>
+        <option value="">&mdash;</option>
+        {{#each houseBenefits as |benefitKey|}}
+        <option value="{{benefitKey}}" {{#if (wawEq @root.system.details.houseBenefit benefitKey)}}selected{{/if}}>{{localize benefitKey}}</option>
+        {{/each}}
+      </select>
+      {{else}}
+      <p class="waw-heritage-note">{{localize "WAW.Benefit.PickHouse"}}</p>
+      {{/if}}
+    </div>
+
+    <div class="waw-two-col">
+      {{> "systems/witchcraft-and-wizardry/templates/actor/parts/items-list.hbs"
+          items=itemsByType.wand type="wand" label="WAW.Section.Wands"}}
+      {{> "systems/witchcraft-and-wizardry/templates/actor/parts/items-list.hbs"
+          items=itemsByType.pet type="pet" label="WAW.Section.Pets"}}
+    </div>
+  </section>
+
+  {{!-- ══ TAB: Inventory — equipment + potions ═══════════════════ --}}
+  <section class="waw-tab-panel" data-tab-panel="inventory">
+    <div class="waw-two-col">
+      {{> "systems/witchcraft-and-wizardry/templates/actor/parts/items-list.hbs"
+          items=itemsByType.equipment type="equipment" label="WAW.Section.Equipment"}}
+      {{> "systems/witchcraft-and-wizardry/templates/actor/parts/items-list.hbs"
+          items=itemsByType.potion type="potion" label="WAW.Section.Potions"}}
+    </div>
+  </section>
+
+  {{!-- ══ TAB: Story — details, looks, notes, background ═════════ --}}
+  <section class="waw-tab-panel" data-tab-panel="story">
+    <div class="waw-card">
+      <div class="waw-field-grid">
+        <label>{{localize "WAW.Field.Birthdate"}}
+          <input type="text" name="system.details.birthday" value="{{system.details.birthday}}" {{#unless editable}}disabled{{/unless}}>
+        </label>
+        <label>{{localize "WAW.Field.FavoriteClass"}}
+          <input type="text" name="system.details.favoriteClass" value="{{system.details.favoriteClass}}" {{#unless editable}}disabled{{/unless}}>
+        </label>
+        <label>{{localize "WAW.Field.Electives"}}
+          <input type="text" name="system.details.electives" value="{{system.details.electives}}" {{#unless editable}}disabled{{/unless}}>
+        </label>
+      </div>
+    </div>
+
+    <div class="waw-card">
+      <header class="waw-section-header"><span>{{localize "WAW.Section.Looks"}}</span></header>
+      <div class="waw-field-grid">
+        <label>{{localize "WAW.Field.LookBody"}}
+          <input type="text" name="system.details.looks.body" value="{{system.details.looks.body}}" {{#unless editable}}disabled{{/unless}}>
+        </label>
+        <label>{{localize "WAW.Field.LookEyes"}}
+          <input type="text" name="system.details.looks.eyes" value="{{system.details.looks.eyes}}" {{#unless editable}}disabled{{/unless}}>
+        </label>
+        <label>{{localize "WAW.Field.LookFace"}}
+          <input type="text" name="system.details.looks.face" value="{{system.details.looks.face}}" {{#unless editable}}disabled{{/unless}}>
+        </label>
+      </div>
+    </div>
+
+    <div class="waw-card">
+      <header class="waw-section-header"><span>{{localize "WAW.Section.Notes"}}</span></header>
+      {{{biographyEditor}}}
+    </div>
+
+    <div class="waw-card">
+      <header class="waw-section-header"><span>{{localize "WAW.Section.Background"}}</span></header>
+      {{{backgroundEditor}}}
+    </div>
+  </section>
+</div>

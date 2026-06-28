@@ -1,0 +1,35 @@
+{
+  "name": "witchcraft-and-wizardry-foundry-vtt",
+  "version": "0.7.0",
+  "description": "Foundry VTT system for the Witchcraft and Wizardry PbtA tabletop RPG.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint module/ tools/",
+    "lint:fix": "eslint module/ tools/ --fix",
+    "format": "prettier --write \"**/*.{mjs,js,json,css,hbs,md}\"",
+    "build:packs": "node tools/build-packs.mjs",
+    "build": "npm run build:packs && npm run pack",
+    "pack": "npm run pack:spells && npm run pack:moves && npm run pack:traits && npm run pack:potions && npm run pack:houses",
+    "pack:spells": "fvtt package pack spells --id witchcraft-and-wizardry --type System --in packs/src/spells --out packs",
+    "pack:moves": "fvtt package pack moves --id witchcraft-and-wizardry --type System --in packs/src/moves --out packs",
+    "pack:traits": "fvtt package pack traits --id witchcraft-and-wizardry --type System --in packs/src/traits --out packs",
+    "pack:potions": "fvtt package pack potions --id witchcraft-and-wizardry --type System --in packs/src/potions --out packs",
+    "pack:houses": "fvtt package pack houses --id witchcraft-and-wizardry --type System --in packs/src/houses --out packs",
+    "unpack": "fvtt package unpack spells --id witchcraft-and-wizardry --type System --in packs --out packs/src/spells"
+  },
+  "keywords": [
+    "foundry-vtt",
+    "foundryvtt",
+    "system",
+    "pbta",
+    "ttrpg"
+  ],
+  "author": "SebastianCotrina16",
+  "license": "MIT",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.1.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}

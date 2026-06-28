@@ -1,0 +1,14 @@
+# Normalize line endings: text files use LF in the repo regardless of OS.
+* text=auto eol=lf
+
+# Treat known binaries as binary (never normalize / diff).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.svg text eol=lf
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary

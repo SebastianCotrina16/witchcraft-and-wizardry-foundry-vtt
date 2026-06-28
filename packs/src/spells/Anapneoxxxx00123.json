@@ -1,0 +1,22 @@
+{
+  "_id": "Anapneoxxxx00123",
+  "_key": "!items!Anapneoxxxx00123",
+  "name": "Anapneo",
+  "type": "spell",
+  "img": "icons/svg/heal.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Clears the target's airway if they are choking on something.</p>",
+    "year": 6,
+    "spellType": "healing",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 12400,
+  "ownership": {
+    "default": 0
+  }
+}

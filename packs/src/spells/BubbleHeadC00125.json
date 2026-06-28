@@ -1,0 +1,22 @@
+{
+  "_id": "BubbleHeadC00125",
+  "_key": "!items!BubbleHeadC00125",
+  "name": "Bubble-Head Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Produces a large bubble of air around the head of the user; it is commonly used as the supernatural equivalent of a breathing set.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 12600,
+  "ownership": {
+    "default": 0
+  }
+}

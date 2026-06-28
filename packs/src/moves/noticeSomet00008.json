@@ -1,0 +1,25 @@
+{
+  "_id": "noticeSomet00008",
+  "_key": "!items!noticeSomet00008",
+  "name": "Notice Something",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Mind when something catches your attention and you try to see what it is.</p><p><strong>10+:</strong> Ask two questions.</p><p><strong>7-9:</strong> Ask one: Is anyone or anything sneaking around? Did it seem dangerous? How do we get out of here? What did it look like?</p>",
+    "key": "noticeSomething",
+    "attribute": "mind",
+    "results": {
+      "success": "Ask two questions.",
+      "partial": "Ask one: Is anyone or anything sneaking around? Did it seem dangerous? How do we get out of here? What did it look like?",
+      "failure": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  }
+}

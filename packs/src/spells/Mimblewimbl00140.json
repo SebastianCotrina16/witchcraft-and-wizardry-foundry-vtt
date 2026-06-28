@@ -1,0 +1,22 @@
+{
+  "_id": "Mimblewimbl00140",
+  "_key": "!items!Mimblewimbl00140",
+  "name": "Mimblewimble",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Ties the target's tongue in a knot, preventing them from making coherent speech, or saying incantations correctly, making it useful in duels.</p>",
+    "year": 6,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14100,
+  "ownership": {
+    "default": 0
+  }
+}

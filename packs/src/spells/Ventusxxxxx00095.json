@@ -1,0 +1,22 @@
+{
+  "_id": "Ventusxxxxx00095",
+  "_key": "!items!Ventusxxxxx00095",
+  "name": "Ventus",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Shoots a jet of strong spiraling wind from the tip of the wand.</p>",
+    "year": 4,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9600,
+  "ownership": {
+    "default": 0
+  }
+}

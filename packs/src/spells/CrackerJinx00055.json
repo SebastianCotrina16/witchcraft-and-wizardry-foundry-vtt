@@ -1,0 +1,22 @@
+{
+  "_id": "CrackerJinx00055",
+  "_key": "!items!CrackerJinx00055",
+  "name": "Cracker Jinx",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>This spell is used to conjure exploding wizard crackers; it can be used in dueling to harm the opponent, but the force of the explosion may also affect the caster.</p>",
+    "year": 3,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5600,
+  "ownership": {
+    "default": 0
+  }
+}

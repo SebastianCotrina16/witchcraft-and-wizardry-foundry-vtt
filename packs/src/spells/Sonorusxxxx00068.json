@@ -1,0 +1,22 @@
+{
+  "_id": "Sonorusxxxx00068",
+  "_key": "!items!Sonorusxxxx00068",
+  "name": "Sonorus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Makes the target sound louder. The counter-charm is the Quietening Charm, Quietus.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6900,
+  "ownership": {
+    "default": 0
+  }
+}

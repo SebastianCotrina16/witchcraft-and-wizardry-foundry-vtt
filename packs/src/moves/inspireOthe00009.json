@@ -1,0 +1,25 @@
+{
+  "_id": "inspireOthe00009",
+  "_key": "!items!inspireOthe00009",
+  "name": "Inspire Others",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Soul when you try to inspire others. Explain how you try to inspire them.</p><p><strong>10+:</strong> You inspire someone. Choose two: make another feel strong (+1 forward to Body), perceptive (+1 forward to Heart) or clever (+1 forward to Mind).</p><p><strong>7-9:</strong> You help a little; choose one of the above.</p><p><strong>6-:</strong> You aren't convincing and the other person takes -2 forward to Body, Heart or Mind.</p>",
+    "key": "inspireOthers",
+    "attribute": "soul",
+    "results": {
+      "success": "You inspire someone. Choose two: make another feel strong (+1 forward to Body), perceptive (+1 forward to Heart) or clever (+1 forward to Mind).",
+      "partial": "You help a little; choose one of the above.",
+      "failure": "You aren't convincing and the other person takes -2 forward to Body, Heart or Mind."
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

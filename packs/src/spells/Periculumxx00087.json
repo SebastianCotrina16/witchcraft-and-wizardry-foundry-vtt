@@ -1,0 +1,22 @@
+{
+  "_id": "Periculumxx00087",
+  "_key": "!items!Periculumxx00087",
+  "name": "Periculum",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Produces a burst of red sparks.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8800,
+  "ownership": {
+    "default": 0
+  }
+}

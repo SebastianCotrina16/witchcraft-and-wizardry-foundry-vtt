@@ -1,0 +1,12 @@
+{{!-- Potion body: effect, quantity and price. --}}
+<div class="waw-field-grid">
+  <label>{{localize "WAW.Field.Effect"}}
+    <input type="text" name="system.effect" value="{{system.effect}}" {{#unless editable}}disabled{{/unless}}>
+  </label>
+  <label>{{localize "WAW.Field.Quantity"}}
+    <input type="number" name="system.quantity" value="{{system.quantity}}" min="0" {{#unless editable}}disabled{{/unless}}>
+  </label>
+  <label>{{localize "WAW.Field.Price"}}
+    <input type="number" name="system.price" value="{{system.price}}" min="0" {{#unless editable}}disabled{{/unless}}>
+  </label>
+</div>

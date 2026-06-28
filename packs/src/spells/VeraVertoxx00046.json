@@ -1,0 +1,22 @@
+{
+  "_id": "VeraVertoxx00046",
+  "_key": "!items!VeraVertoxx00046",
+  "name": "Vera Verto",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Turn animals to water goblets.</p>",
+    "year": 2,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4700,
+  "ownership": {
+    "default": 0
+  }
+}

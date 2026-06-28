@@ -1,0 +1,21 @@
+{
+  "_id": "BloodReplen00012",
+  "_key": "!items!BloodReplen00012",
+  "name": "Blood-Replenishing Potion",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Replenishes blood lost through injury over a short time.</p>",
+    "effect": "Replenishes lost blood",
+    "quantity": 1,
+    "price": 14
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  }
+}

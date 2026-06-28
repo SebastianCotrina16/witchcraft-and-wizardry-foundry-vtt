@@ -1,0 +1,22 @@
+{
+  "_id": "EverteStatu00034",
+  "_key": "!items!EverteStatu00034",
+  "name": "Everte Statum",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Throws the victim backward, similarly to if they'd been thrown.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3500,
+  "ownership": {
+    "default": 0
+  }
+}

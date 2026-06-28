@@ -1,0 +1,22 @@
+{
+  "_id": "Pisciforsxx00088",
+  "_key": "!items!Pisciforsxx00088",
+  "name": "Piscifors",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Transforms things into fish.</p>",
+    "year": 4,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8900,
+  "ownership": {
+    "default": 0
+  }
+}

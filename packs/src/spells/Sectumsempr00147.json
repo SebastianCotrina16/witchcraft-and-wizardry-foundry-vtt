@@ -1,0 +1,22 @@
+{
+  "_id": "Sectumsempr00147",
+  "_key": "!items!Sectumsempr00147",
+  "name": "Sectumsempra",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Lacerates the target, as if they have been \"slashed by a sword.\" Subsequently, the target can easily bleed to death from the wounds.</p>",
+    "year": 6,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14800,
+  "ownership": {
+    "default": 0
+  }
+}

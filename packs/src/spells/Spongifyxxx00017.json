@@ -1,0 +1,22 @@
+{
+  "_id": "Spongifyxxx00017",
+  "_key": "!items!Spongifyxxx00017",
+  "name": "Spongify",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Softens objects, making them rubbery and bouncy.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  }
+}

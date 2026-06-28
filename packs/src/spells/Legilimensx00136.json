@@ -1,0 +1,22 @@
+{
+  "_id": "Legilimensx00136",
+  "_key": "!items!Legilimensx00136",
+  "name": "Legilimens",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Allows the caster to delve into the mind of the victim, allowing the caster to see the memories, thoughts, and emotions of the victim.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13700,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,17 @@
+{{!-- Generic item sheet shell. The body partial is chosen by item subtype. --}}
+<div class="waw-sheet waw-item-sheet">
+  <header class="waw-header">
+    <img class="waw-portrait" src="{{item.img}}" data-edit="img" alt="{{item.name}}">
+    <input class="waw-name" type="text" name="name" value="{{item.name}}"
+           placeholder="{{localize "WAW.Field.Name"}}" {{#unless editable}}disabled{{/unless}}>
+  </header>
+
+  <section class="waw-item-body">
+    {{> (lookup this "bodyPartial")}}
+  </section>
+
+  <section class="waw-item-description">
+    <header class="waw-section-header"><span>{{localize "WAW.Field.Description"}}</span></header>
+    {{{descriptionEditor}}}
+  </section>
+</div>

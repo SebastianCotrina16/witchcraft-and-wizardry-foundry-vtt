@@ -1,0 +1,22 @@
+{
+  "_id": "Aviforsxxxx00028",
+  "_key": "!items!Aviforsxxxx00028",
+  "name": "Avifors",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Transforms the target into a bird.</p>",
+    "year": 2,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 2900,
+  "ownership": {
+    "default": 0
+  }
+}

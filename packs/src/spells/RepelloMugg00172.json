@@ -1,0 +1,22 @@
+{
+  "_id": "RepelloMugg00172",
+  "_key": "!items!RepelloMugg00172",
+  "name": "Repello Muggletum",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Keeps Muggles away from wizarding places by causing them to remember important meetings they missed and to cause the Muggles in question to forget what they were doing.</p>",
+    "year": 7,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17300,
+  "ownership": {
+    "default": 0
+  }
+}

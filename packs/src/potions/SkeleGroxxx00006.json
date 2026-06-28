@@ -1,0 +1,21 @@
+{
+  "_id": "SkeleGroxxx00006",
+  "_key": "!items!SkeleGroxxx00006",
+  "name": "Skele-Gro",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Regrows lost or removed bones over a painful night.</p>",
+    "effect": "Regrows bones",
+    "quantity": 1,
+    "price": 12
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  }
+}

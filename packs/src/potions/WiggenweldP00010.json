@@ -1,0 +1,21 @@
+{
+  "_id": "WiggenweldP00010",
+  "_key": "!items!WiggenweldP00010",
+  "name": "Wiggenweld Potion",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Restores vitality and heals injuries; can rouse a drinker from magical sleep.</p>",
+    "effect": "Healing potion",
+    "quantity": 1,
+    "price": 15
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Surgitoxxxx00150",
+  "_key": "!items!Surgitoxxxx00150",
+  "name": "Surgito",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Counter-charm that can be used to remove enchantments.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15100,
+  "ownership": {
+    "default": 0
+  }
+}

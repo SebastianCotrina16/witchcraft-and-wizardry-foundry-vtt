@@ -1,0 +1,22 @@
+{
+  "_id": "BluebellFla00004",
+  "_key": "!items!BluebellFla00004",
+  "name": "Bluebell Flames",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Produces magical blue flames that can be held in a jar. Not as dangerous as real fire, these magical flames can be touched, penetrated and held without it burning the holder, though it is known to singe materials such as clothing and plants.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  }
+}

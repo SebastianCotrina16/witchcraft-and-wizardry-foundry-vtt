@@ -1,0 +1,22 @@
+{
+  "_id": "Illegibilus00038",
+  "_key": "!items!Illegibilus00038",
+  "name": "Illegibilus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Makes writing impossible to read.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3900,
+  "ownership": {
+    "default": 0
+  }
+}

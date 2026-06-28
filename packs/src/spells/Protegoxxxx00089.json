@@ -1,0 +1,22 @@
+{
+  "_id": "Protegoxxxx00089",
+  "_key": "!items!Protegoxxxx00089",
+  "name": "Protego",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Invisible shield that reflects spells and blocks physical entities.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  }
+}

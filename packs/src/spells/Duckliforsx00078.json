@@ -1,0 +1,22 @@
+{
+  "_id": "Duckliforsx00078",
+  "_key": "!items!Duckliforsx00078",
+  "name": "Ducklifors",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Transforms the target into a duck.</p>",
+    "year": 4,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7900,
+  "ownership": {
+    "default": 0
+  }
+}

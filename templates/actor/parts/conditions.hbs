@@ -1,0 +1,19 @@
+{{!-- Health conditions. Each active condition applies -2 to its paired attribute. --}}
+<section class="waw-conditions {{#if system.isOut}}is-out{{/if}}">
+  <header class="waw-section-header">
+    <span>{{localize "WAW.Section.Conditions"}}</span>
+    {{#if system.isOut}}<span class="waw-out-flag">{{localize "WAW.Condition.Out"}}</span>{{/if}}
+  </header>
+  <ul class="waw-condition-list">
+    {{#each config.conditions as |cfg key|}}
+    <li class="waw-condition {{#if (lookup @root.system.conditions key)}}active{{/if}}">
+      <button type="button" class="waw-condition-toggle"
+              data-action="toggleCondition" data-condition="{{key}}"
+              {{#unless @root.editable}}disabled{{/unless}}>
+        <i class="fa-solid {{#if (lookup @root.system.conditions key)}}fa-square-check{{else}}fa-square{{/if}}"></i>
+        {{localize cfg.label}}
+      </button>
+    </li>
+    {{/each}}
+  </ul>
+</section>

@@ -1,0 +1,20 @@
+{
+  "_id": "SelfRighteo00067",
+  "_key": "!items!SelfRighteo00067",
+  "name": "Self-Righteous",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6800,
+  "ownership": {
+    "default": 0
+  }
+}

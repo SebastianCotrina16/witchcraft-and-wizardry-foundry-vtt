@@ -1,0 +1,22 @@
+{
+  "_id": "BewitchedSn00003",
+  "_key": "!items!BewitchedSn00003",
+  "name": "Bewitched Snowballs",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes snowballs to pelt themselves at the target.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  }
+}

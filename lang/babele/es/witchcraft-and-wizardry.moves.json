@@ -1,0 +1,104 @@
+{
+  "label": "Movimientos",
+  "collection": "witchcraft-and-wizardry.moves",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "success": "system.results.success",
+    "partial": "system.results.partial",
+    "failure": "system.results.failure"
+  },
+  "entries": {
+    "Quick And Quiet": {
+      "name": "Rápido y Silencioso",
+      "description": "<p>Tira +Cuerpo cuando intentas moverte con rapidez y/o sigilo.</p><p><strong>10+:</strong> Te mueves rápido y pasas desapercibido.</p><p><strong>7-9:</strong> Te mueves rápido o en silencio… ¿cuál de los dos?</p>",
+      "success": "Te mueves rápido y pasas desapercibido.",
+      "partial": "Te mueves rápido o en silencio… ¿cuál de los dos?",
+      "failure": ""
+    },
+    "Tough It Out": {
+      "name": "Aguantar el Golpe",
+      "description": "<p>Tira +Cuerpo cuando recibes un golpe.</p><p><strong>10+:</strong> Parecía más peligroso de lo que era; aguantas el golpe sin problemas.</p><p><strong>7-9:</strong> Te pilla desprevenido. Elige dos: toma una condición apropiada; quedas fuera de posición, en mayor peligro; pierdes algo importante.</p><p><strong>6-:</strong> Te hieren de gravedad. Elige uno: te desmayas o huyes; quedas maldito, gravemente herido o profundamente afectado (el GM dirá cómo); o toma las tres opciones de la lista de 7-9.</p>",
+      "success": "Parecía más peligroso de lo que era; aguantas el golpe sin problemas.",
+      "partial": "Te pilla desprevenido. Elige dos: toma una condición apropiada; quedas fuera de posición, en mayor peligro; pierdes algo importante.",
+      "failure": "Te hieren de gravedad. Elige uno: te desmayas o huyes; quedas maldito, gravemente herido o profundamente afectado (el GM dirá cómo); o toma las tres opciones de la lista de 7-9."
+    },
+    "Struggle": {
+      "name": "Forcejear",
+      "description": "<p>Tira +Cuerpo cuando intentas forcejear contra alguien o algo.</p><p><strong>10+:</strong> Forcejeas con éxito, recibiendo daño. Elige dos.</p><p><strong>7-9:</strong> Elige uno: ignoras el daño; les quitas algo; los sorprendes; los asustas.</p>",
+      "success": "Forcejeas con éxito, recibiendo daño. Elige dos.",
+      "partial": "Elige uno: ignoras el daño; les quitas algo; los sorprendes; los asustas.",
+      "failure": ""
+    },
+    "Convince": {
+      "name": "Convencer",
+      "description": "<p>Tira +Corazón cuando intentas que alguien te escuche, por intimidación o conversación.</p><p><strong>10+:</strong> Te escuchan y te creen.</p><p><strong>7-9:</strong> Elige uno: necesitan pruebas; te siguen la corriente… por ahora; lo hacen, pero ahora te temen; los sobornas.</p>",
+      "success": "Te escuchan y te creen.",
+      "partial": "Elige uno: necesitan pruebas; te siguen la corriente… por ahora; lo hacen, pero ahora te temen; los sobornas.",
+      "failure": ""
+    },
+    "Read Between The Lines": {
+      "name": "Leer Entre Líneas",
+      "description": "<p>Tira +Corazón cuando intentas entender lo que alguien o algo piensa de verdad.</p><p><strong>10+:</strong> Los lees como un libro abierto. Elige dos preguntas.</p><p><strong>7-9:</strong> Elige una: ¿Dicen la verdad? ¿Qué están planeando? ¿Cómo me ven? ¿Cómo gano su confianza? ¿Cómo los enfado? ¿Cómo se sienten?</p>",
+      "success": "Los lees como un libro abierto. Elige dos preguntas.",
+      "partial": "Elige una: ¿Dicen la verdad? ¿Qué están planeando? ¿Cómo me ven? ¿Cómo gano su confianza? ¿Cómo los enfado? ¿Cómo se sienten?",
+      "failure": ""
+    },
+    "Treat Wounds": {
+      "name": "Tratar Heridas",
+      "description": "<p>Tira +Corazón cuando te tomas tiempo para tratar las heridas de alguien con objetos, pociones o medios físicos.</p><p><strong>10+:</strong> Curas una condición.</p><p><strong>7-9:</strong> Elige uno: apañas algo temporal que no durará; te cuesta algo; te exige toda tu concentración, tardas más y quedas vulnerable.</p>",
+      "success": "Curas una condición.",
+      "partial": "Elige uno: apañas algo temporal que no durará; te cuesta algo; te exige toda tu concentración, tardas más y quedas vulnerable.",
+      "failure": ""
+    },
+    "I Read About That": {
+      "name": "Leí Sobre Eso",
+      "description": "<p>Tira +Mente cuando intentas recordar algo de historia, personal o de otro tipo.</p><p><strong>10+:</strong> Haz tres preguntas.</p><p><strong>7-9:</strong> Haz dos: ¿Qué hace? ¿Qué aspecto, sonido, olor, sabor o tacto tiene? ¿Es peligroso? ¿De dónde viene? ¿A quién conozco relacionado con esto?</p>",
+      "success": "Haz tres preguntas.",
+      "partial": "Haz dos: ¿Qué hace? ¿Qué aspecto, sonido, olor, sabor o tacto tiene? ¿Es peligroso? ¿De dónde viene? ¿A quién conozco relacionado con esto?",
+      "failure": ""
+    },
+    "Investigate": {
+      "name": "Investigar",
+      "description": "<p>Tira +Mente cuando te tomas tiempo para examinar algo de cerca y averiguar qué pasa.</p><p><strong>10+:</strong> Haz dos preguntas.</p><p><strong>7-9:</strong> Haz una: ¿Hay trampas? ¿Queda magia aquí? ¿Algo extraño a nivel físico? ¿Se parece a algo que haya visto? ¿Algo útil aquí?</p>",
+      "success": "Haz dos preguntas.",
+      "partial": "Haz una: ¿Hay trampas? ¿Queda magia aquí? ¿Algo extraño a nivel físico? ¿Se parece a algo que haya visto? ¿Algo útil aquí?",
+      "failure": ""
+    },
+    "Notice Something": {
+      "name": "Percatarse de Algo",
+      "description": "<p>Tira +Mente cuando algo llama tu atención e intentas ver qué es.</p><p><strong>10+:</strong> Haz dos preguntas.</p><p><strong>7-9:</strong> Haz una: ¿Hay alguien o algo merodeando? ¿Parecía peligroso? ¿Cómo salimos de aquí? ¿Qué aspecto tenía?</p>",
+      "success": "Haz dos preguntas.",
+      "partial": "Haz una: ¿Hay alguien o algo merodeando? ¿Parecía peligroso? ¿Cómo salimos de aquí? ¿Qué aspecto tenía?",
+      "failure": ""
+    },
+    "Inspire Others": {
+      "name": "Inspirar a Otros",
+      "description": "<p>Tira +Alma cuando intentas inspirar a otros. Explica cómo.</p><p><strong>10+:</strong> Inspiras a alguien. Elige dos: haz que otro se sienta fuerte (+1 progreso a Cuerpo), perceptivo (+1 a Corazón) o astuto (+1 a Mente).</p><p><strong>7-9:</strong> Ayudas un poco; elige uno de los anteriores.</p><p><strong>6-:</strong> No resultas convincente y la otra persona toma -2 progreso a Cuerpo, Corazón o Mente.</p>",
+      "success": "Inspiras a alguien. Elige dos: haz que otro se sienta fuerte (+1 progreso a Cuerpo), perceptivo (+1 a Corazón) o astuto (+1 a Mente).",
+      "partial": "Ayudas un poco; elige uno de los anteriores.",
+      "failure": "No resultas convincente y la otra persona toma -2 progreso a Cuerpo, Corazón o Mente."
+    },
+    "Resist Influence": {
+      "name": "Resistir Influencia",
+      "description": "<p>Tira +Alma cuando intentas resistir la influencia de alguien.</p><p><strong>10+:</strong> Resistes su influencia y tomas +1 progreso si intenta influir en ti de nuevo.</p><p><strong>7-9:</strong> Resistes, pero persiste: toma -1 progreso para resistir más influencia suya.</p><p><strong>6-:</strong> Escuchas atentamente su influencia y haces lo que dice.</p>",
+      "success": "Resistes su influencia y tomas +1 progreso si intenta influir en ti de nuevo.",
+      "partial": "Resistes, pero persiste: toma -1 progreso para resistir más influencia suya.",
+      "failure": "Escuchas atentamente su influencia y haces lo que dice."
+    },
+    "Show Courage": {
+      "name": "Mostrar Valentía",
+      "description": "<p>Tira +Alma cuando intentas mostrar valentía ante algo verdaderamente aterrador.</p><p><strong>10+:</strong> Miras al miedo a los ojos y no te quiebras. Ganas +1 progreso al enfrentarlo.</p><p><strong>7-9:</strong> Te mantienes firme pero asustado. Elige uno: estás aterrado y todos lo saben; tomas -1 progreso al enfrentarlo; defraudas a tus amigos pero ganas +1 progreso al enfrentarlo.</p><p><strong>6-:</strong> Te acobardas y huyes, tomando -1 progreso al enfrentarlo.</p>",
+      "success": "Miras al miedo a los ojos y no te quiebras. Ganas +1 progreso al enfrentarlo.",
+      "partial": "Te mantienes firme pero asustado. Elige uno: estás aterrado y todos lo saben; tomas -1 progreso al enfrentarlo; defraudas a tus amigos pero ganas +1 progreso al enfrentarlo.",
+      "failure": "Te acobardas y huyes, tomando -1 progreso al enfrentarlo."
+    },
+    "Cast A Spell": {
+      "name": "Lanzar un Hechizo",
+      "description": "<p>Tira +Magia cuando intentas lanzar un hechizo. -1 progreso por cada año por encima de tu personaje, +1 progreso por cada año por debajo.</p><p><strong>10+:</strong> El hechizo tiene éxito.</p><p><strong>7-9:</strong> El hechizo tiene éxito con efectos secundarios; elige dos: un aliado toma una condición por un fallo parcial (ellos eligen); el hechizo es distinto de lo esperado; alguien o algo se percata del lanzamiento; tu varita sale despedida de tus manos y cae cerca.</p><p><strong>6-:</strong> El hechizo rebota y el lanzador toma una condición — una adicional por cada año por encima del año actual del hechizo intentado.</p>",
+      "success": "El hechizo tiene éxito.",
+      "partial": "El hechizo tiene éxito con efectos secundarios; elige dos: un aliado toma una condición por un fallo parcial (ellos eligen); el hechizo es distinto de lo esperado; alguien o algo se percata del lanzamiento; tu varita sale despedida de tus manos y cae cerca.",
+      "failure": "El hechizo rebota y el lanzador toma una condición — una adicional por cada año por encima del año actual del hechizo intentado."
+    }
+  }
+}

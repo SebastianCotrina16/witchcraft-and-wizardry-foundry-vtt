@@ -1,0 +1,25 @@
+{
+  "_id": "toughItOutx00001",
+  "_key": "!items!toughItOutx00001",
+  "name": "Tough It Out",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Body when you take a hit.</p><p><strong>10+:</strong> It seemed more dangerous than it was; you shrug off the hit without any problems.</p><p><strong>7-9:</strong> It takes you off guard. Choose two: take an appropriate condition; you're knocked out of position, putting you in more danger; you lose something important.</p><p><strong>6-:</strong> You're hurt badly. Choose one: pass out or flee; you're cursed, severely injured or deeply affected (the GM tells you how); or take all three options from the 7-9 list.</p>",
+    "key": "toughItOut",
+    "attribute": "body",
+    "results": {
+      "success": "It seemed more dangerous than it was; you shrug off the hit without any problems.",
+      "partial": "It takes you off guard. Choose two: take an appropriate condition; you're knocked out of position, putting you in more danger; you lose something important.",
+      "failure": "You're hurt badly. Choose one: pass out or flee; you're cursed, severely injured or deeply affected (the GM tells you how); or take all three options from the 7-9 list."
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  }
+}

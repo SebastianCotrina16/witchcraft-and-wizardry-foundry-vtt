@@ -1,0 +1,538 @@
+{
+  "label": "Hechizos",
+  "collection": "witchcraft-and-wizardry.spells",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": {
+    "Alohomora": {
+      "description": "<p>Abre puertas y otros objetos. También puede abrir puertas selladas con un hechizo de cerradura, aunque es posible embrujar puertas para que no se vean afectadas.</p>"
+    },
+    "Badgering": {
+      "description": "<p>Convierte cosas en tejones.</p>"
+    },
+    "Baubillious": {
+      "description": "<p>Emite chispas blancas de la punta de la varita.</p>"
+    },
+    "Bewitched Snowballs": {
+      "description": "<p>Hace que las bolas de nieve se lancen solas contra el objetivo.</p>"
+    },
+    "Bluebell Flames": {
+      "description": "<p>Produce llamas mágicas azules que pueden sostenerse en un frasco. Menos peligrosas que el fuego real, pueden tocarse y sostenerse sin quemar, aunque chamuscan materiales como la ropa y las plantas.</p>"
+    },
+    "Incendio": {
+      "description": "<p>Produce fuego.</p>"
+    },
+    "Locomotor Mortis": {
+      "description": "<p>Une las piernas del objetivo.</p>"
+    },
+    "Lumos": {
+      "description": "<p>Ilumina la punta de la varita del lanzador, permitiéndole ver en la oscuridad.</p>"
+    },
+    "Mucus ad Nauseam": {
+      "description": "<p>Provoca a la víctima un fuerte resfriado y una nariz muy goteante que puede hacerla colapsar si no se trata, acompañado de estornudos constantes.</p>"
+    },
+    "Nox": {
+      "description": "<p>Apaga la luz de la varita. Es el contrahechizo de Lumos.</p>"
+    },
+    "Oculus Reparo": {
+      "description": "<p>Repara gafas.</p>"
+    },
+    "Papyrus Reparo": {
+      "description": "<p>Repara trozos de papel rotos.</p>"
+    },
+    "Petrificus Totalus": {
+      "description": "<p>Inmoviliza temporalmente el cuerpo de la víctima en posición de firmes; suele caer al suelo.</p>"
+    },
+    "Reducio": {
+      "description": "<p>Reduce el tamaño de un objeto. Su contrahechizo es el encantamiento de agrandamiento.</p>"
+    },
+    "Reparifarge": {
+      "description": "<p>Sirve para revertir transformaciones incompletas.</p>"
+    },
+    "Reparo": {
+      "description": "<p>Repara objetos rotos sin dejar marca.</p>"
+    },
+    "Slippery Jinx": {
+      "description": "<p>Vuelve un objeto resbaladizo y difícil de sujetar.</p>"
+    },
+    "Spongify": {
+      "description": "<p>Ablanda objetos, volviéndolos gomosos y rebotantes.</p>"
+    },
+    "Tarantallegra": {
+      "description": "<p>Hace que las piernas del objetivo se muevan sin control, como si bailara.</p>"
+    },
+    "Trip Jinx": {
+      "description": "<p>Obliga al objetivo a tropezar y caer.</p>"
+    },
+    "Verdemillious": {
+      "description": "<p>Emite chispas verdes de la varita.</p>"
+    },
+    "Washing Up Spell": {
+      "description": "<p>Encanta los platos sucios para que se laven solos.</p>"
+    },
+    "Wingardium Leviosa": {
+      "description": "<p>Hace volar o levitar objetos.</p>"
+    },
+    "Aberto": {
+      "description": "<p>Abre una puerta.</p>"
+    },
+    "Accio": {
+      "description": "<p>Encantamiento convocador; atrae objetos hacia el lanzador, normalmente desde lejos.</p>"
+    },
+    "Aguamenti": {
+      "description": "<p>Produce un chorro de agua desde la varita del lanzador.</p>"
+    },
+    "Aparecium": {
+      "description": "<p>Revela mensajes secretos escritos con tinta invisible u otras marcas ocultas. También funciona contra encantamientos de ocultación.</p>"
+    },
+    "Arresto Momentum": {
+      "description": "<p>Reduce la velocidad de un objetivo en movimiento. Puede usarse en varios objetivos y en el propio lanzador.</p>"
+    },
+    "Avifors": {
+      "description": "<p>Transforma al objetivo en un pájaro.</p>"
+    },
+    "Babbling Curse": {
+      "description": "<p>Provoca balbuceo incontrolable.</p>"
+    },
+    "Bat-Bogey Hex": {
+      "description": "<p>Convierte los mocos de la víctima en grandes murciélagos que salen volando de su nariz.</p>"
+    },
+    "Carpe Retractum": {
+      "description": "<p>Produce una cuerda de luz para atraer objetos hacia el lanzador o, si el objetivo está fijo, atraer al lanzador hacia él.</p>"
+    },
+    "Cauldron to Sieve": {
+      "description": "<p>Transforma calderos en coladores.</p>"
+    },
+    "Cribbing Spell": {
+      "description": "<p>Hechizo que, posiblemente un encantamiento, ayuda al lanzador a copiar en trabajos, pruebas y exámenes.</p>"
+    },
+    "Everte Statum": {
+      "description": "<p>Lanza a la víctima hacia atrás, como si la hubieran empujado.</p>"
+    },
+    "Expelliarmus": {
+      "description": "<p>Obliga a soltar lo que un oponente sostiene. El hechizo insignia de Harry Potter.</p>"
+    },
+    "Finite Incantatem": {
+      "description": "<p>Termina todos los efectos de hechizos en las cercanías del lanzador.</p>"
+    },
+    "Flipendo": {
+      "description": "<p>Empuja objetos y criaturas hacia atrás.</p>"
+    },
+    "Illegibilus": {
+      "description": "<p>Vuelve la escritura imposible de leer.</p>"
+    },
+    "Immobulus": {
+      "description": "<p>Inmoviliza y detiene las acciones del objetivo. Funciona tanto en seres vivos como en cosas inanimadas.</p>"
+    },
+    "Rictusempra": {
+      "description": "<p>Hace cosquillas al objetivo hasta dejarlo débil de tanto reír.</p>"
+    },
+    "Sardine Hex": {
+      "description": "<p>Hace que la víctima estornude sardinas.</p>"
+    },
+    "Serpensortia": {
+      "description": "<p>Conjura una serpiente desde la varita del lanzador.</p>"
+    },
+    "Slugulus Eructo": {
+      "description": "<p>Obliga a la víctima a eructar babosas viscosas.</p>"
+    },
+    "Steleus": {
+      "description": "<p>Embrujo que hace estornudar a la víctima un rato. Se usa en duelos para distraer al oponente.</p>"
+    },
+    "Stupefy": {
+      "description": "<p>Aturde al objetivo, dejándolo inconsciente.</p>"
+    },
+    "Vera Verto": {
+      "description": "<p>Convierte animales en copas de agua.</p>"
+    },
+    "Alarte Ascendare": {
+      "description": "<p>Dispara al objetivo muy alto por los aires.</p>"
+    },
+    "Aqua Eructo": {
+      "description": "<p>Crea y controla un chorro de agua clara desde la punta de la varita; probablemente relacionado con Aguamenti.</p>"
+    },
+    "Avis": {
+      "description": "<p>Conjura una bandada de pájaros desde la punta de la varita. Junto con Oppugno puede usarse de forma ofensiva.</p>"
+    },
+    "Bombarda": {
+      "description": "<p>Provoca una pequeña explosión.</p>"
+    },
+    "Broom Jinx": {
+      "description": "<p>Hace que las escobas intenten tirar a sus jinetes mediante sacudidas y movimientos bruscos. Requiere contacto visual constante.</p>"
+    },
+    "Cheering Charm": {
+      "description": "<p>Hace sentir feliz al objetivo. Abusar del hechizo puede provocar un ataque de risa incontrolable.</p>"
+    },
+    "Colloshoo": {
+      "description": "<p>Pega los zapatos del objetivo al suelo.</p>"
+    },
+    "Confundo": {
+      "description": "<p>Hace que la víctima se confunda y aturda.</p>"
+    },
+    "Cracker Jinx": {
+      "description": "<p>Conjura petardos mágicos explosivos; puede usarse en duelos, pero la explosión también puede afectar al lanzador.</p>"
+    },
+    "Dissendium": {
+      "description": "<p>Su único efecto canónico conocido es abrir pasadizos secretos, aunque podría abrir cosas en general.</p>"
+    },
+    "Draconifors": {
+      "description": "<p>Transforma al objetivo en un dragón muy pequeño.</p>"
+    },
+    "Drought Charm": {
+      "description": "<p>Seca charcos y estanques. No es lo bastante potente para vaciar un lago.</p>"
+    },
+    "Feather-Light Charm": {
+      "description": "<p>Vuelve un objeto ligero como una pluma.</p>"
+    },
+    "Fumos": {
+      "description": "<p>Cortina de humo defensiva que dificulta la visibilidad.</p>"
+    },
+    "Glacius": {
+      "description": "<p>Congela al objetivo con aire helado.</p>"
+    },
+    "Herbifors": {
+      "description": "<p>Hace brotar flores de la víctima.</p>"
+    },
+    "Impervius": {
+      "description": "<p>Hace que un objeto repela el agua y la niebla.</p>"
+    },
+    "Inflatus": {
+      "description": "<p>Infla al objetivo, llenándolo de aire.</p>"
+    },
+    "Lapifors": {
+      "description": "<p>Transforma al objetivo en un conejo.</p>"
+    },
+    "Reparifors": {
+      "description": "<p>Revierte dolencias menores inducidas mágicamente, como parálisis y envenenamiento.</p>"
+    },
+    "Riddikulus": {
+      "description": "<p>Usado contra un boggart, lo obliga a tomar la apariencia de algo en lo que el lanzador se concentra. Funciona mejor si es algo gracioso, deseando que la risa debilite al boggart.</p>"
+    },
+    "Sonorus": {
+      "description": "<p>Hace que el objetivo suene más fuerte. Su contrahechizo es Quietus.</p>"
+    },
+    "Tail-Growing Hex": {
+      "description": "<p>Hace que a la víctima le crezca una cola.</p>"
+    },
+    "Waddiwasi": {
+      "description": "<p>Dispara pequeñas masas blandas de lo que el lanzador desee contra el objetivo.</p>"
+    },
+    "Ascendio": {
+      "description": "<p>Eleva al lanzador por los aires. También funciona bajo el agua, propulsándolo a la superficie.</p>"
+    },
+    "Brackium Emendo": {
+      "description": "<p>Si se usa correctamente, se dice que cura huesos rotos; la etimología respalda la teoría.</p>"
+    },
+    "Bubble-Producing Spell": {
+      "description": "<p>Produce un chorro de burbujas que no estallan; existen dos hechizos similares.</p>"
+    },
+    "Conjunctivitis Curse": {
+      "description": "<p>Irrita los ojos, obligándolos a cerrarse hinchados.</p>"
+    },
+    "Depulso": {
+      "description": "<p>Aleja al objetivo del lanzador. Es el contrahechizo del encantamiento convocador.</p>"
+    },
+    "Diffindo": {
+      "description": "<p>Sirve para cortar o rasgar objetos con precisión.</p>"
+    },
+    "Diminuendo": {
+      "description": "<p>Obliga al objetivo a encogerse.</p>"
+    },
+    "Ducklifors": {
+      "description": "<p>Transforma al objetivo en un pato.</p>"
+    },
+    "Engorgio": {
+      "description": "<p>Hace que los objetos aumenten de tamaño.</p>"
+    },
+    "Finestra": {
+      "description": "<p>Hace añicos el cristal.</p>"
+    },
+    "Furnunculus": {
+      "description": "<p>Cubre al objetivo de forúnculos (o granos).</p>"
+    },
+    "Herbivicus": {
+      "description": "<p>Hace crecer plantas rápidamente.</p>"
+    },
+    "Hot-Air Charm": {
+      "description": "<p>Conjura un chorro de aire caliente.</p>"
+    },
+    "Impedimenta": {
+      "description": "<p>Frena o detiene al objetivo.</p>"
+    },
+    "Multicorfors": {
+      "description": "<p>Encantamiento que cambia el color y el estilo de la ropa.</p>"
+    },
+    "Pepper Breath Hex": {
+      "description": "<p>Da a la víctima un aliento ardiente.</p>"
+    },
+    "Periculum": {
+      "description": "<p>Produce una ráfaga de chispas rojas.</p>"
+    },
+    "Piscifors": {
+      "description": "<p>Transforma cosas en peces.</p>"
+    },
+    "Protego": {
+      "description": "<p>Escudo invisible que refleja hechizos y bloquea entidades físicas.</p>"
+    },
+    "Reducto": {
+      "description": "<p>Rompe objetos. En usos más potentes, los desintegra.</p>"
+    },
+    "Relashio": {
+      "description": "<p>Obliga al objetivo a soltar lo que sujeta.</p>"
+    },
+    "Scourgify": {
+      "description": "<p>Limpia objetos.</p>"
+    },
+    "Switching Spell": {
+      "description": "<p>Intercambia dos objetivos simultáneamente.</p>"
+    },
+    "Unbreakable Charm": {
+      "description": "<p>Vuelve los objetos irrompibles.</p>"
+    },
+    "Ventus": {
+      "description": "<p>Dispara un chorro de viento fuerte y giratorio desde la punta de la varita.</p>"
+    },
+    "Vermiculus": {
+      "description": "<p>Transforma cosas en gusanos.</p>"
+    },
+    "Anteoculatia": {
+      "description": "<p>Hace que al objetivo le crezcan astas.</p>"
+    },
+    "Anti-Intruder Jinx": {
+      "description": "<p>Impide que los intrusos entren en una zona.</p>"
+    },
+    "Cantis": {
+      "description": "<p>Hace que la víctima rompa a cantar sin control.</p>"
+    },
+    "Cauldron to Badger": {
+      "description": "<p>Transforma calderos en tejones.</p>"
+    },
+    "Cistem Aperio": {
+      "description": "<p>Abre cofres y cajas.</p>"
+    },
+    "Colloportus": {
+      "description": "<p>Cierra puertas y, presumiblemente, todo lo que pueda cerrarse; se desconoce si requiere el contrahechizo o si una llave podría abrirlo.</p>"
+    },
+    "Colovaria": {
+      "description": "<p>Cambia el color del objetivo.</p>"
+    },
+    "Cornflake Skin Spell": {
+      "description": "<p>Hace que la piel de la víctima parezca cubierta de copos de maíz.</p>"
+    },
+    "Crinus Muto": {
+      "description": "<p>Sirve para transfigurar el color y el estilo del cabello.</p>"
+    },
+    "Deletrius": {
+      "description": "<p>Contrahechizo del hechizo inverso; desvanece la imagen del último hechizo lanzado. También puede desintegrar ciertas cosas.</p>"
+    },
+    "Disillusionment Charm": {
+      "description": "<p>Hace que el objetivo se mimetice con su entorno, como un camaleón.</p>"
+    },
+    "Evanesco": {
+      "description": "<p>Sirve para desvanecer objetos.</p>"
+    },
+    "Expecto Patronum": {
+      "description": "<p>Encantamiento defensivo que conjura un guardián espiritual de emociones positivas para defenderse de criaturas oscuras; también puede enviar mensajes. El Patronus toma la forma de un animal, único para cada lanzador, y puede cambiar tras un periodo de emoción intensa.</p>"
+    },
+    "Fidelius Charm": {
+      "description": "<p>Encantamiento sumamente complejo que oculta información secreta en el alma de su receptor, el Guardián del Secreto. La información es irrecuperable salvo que el Guardián decida revelarla, y solo él puede hacerlo.</p>"
+    },
+    "Flagrate": {
+      "description": "<p>Escribe en el aire con marcas de fuego.</p>"
+    },
+    "Hover Charm": {
+      "description": "<p>Sirve para hacer flotar al objetivo. Es una de las muchas variantes menores del encantamiento de levitación.</p>"
+    },
+    "Imperturbable Charm": {
+      "description": "<p>Crea una barrera mágica invisible sobre un objeto, como una puerta. Rebota objetos y amortigua sonidos.</p>"
+    },
+    "Intruder Charm": {
+      "description": "<p>Detecta intrusos y hace sonar una alarma.</p>"
+    },
+    "Locomotor": {
+      "description": "<p>Permite levitar un objetivo unos centímetros y moverlo en cualquier dirección. Como el encantamiento convocador, se nombra el objeto tras la incantación.</p>"
+    },
+    "Muffliato": {
+      "description": "<p>Impide que otros oigan conversaciones cercanas, llenando sus oídos de un zumbido indefinido.</p>"
+    },
+    "Obliteration Charm": {
+      "description": "<p>Elimina las huellas.</p>"
+    },
+    "Oppugno": {
+      "description": "<p>Hace que objetos señalados ataquen a una víctima. Es muy efectivo junto con el encantamiento convocador de pájaros.</p>"
+    },
+    "Prior Incantato": {
+      "description": "<p>Obliga a una varita a mostrar un 'eco' del último hechizo que lanzó.</p>"
+    },
+    "Protean Charm": {
+      "description": "<p>Hace que las copias de un objeto se vean afectadas de forma remota por los cambios hechos al original.</p>"
+    },
+    "Specialis Revelio": {
+      "description": "<p>Revela hechizos lanzados sobre objetos o pociones.</p>"
+    },
+    "Age Line": {
+      "description": "<p>Impide el acceso a un objetivo a las personas por encima o por debajo de cierta edad.</p>"
+    },
+    "Anapneo": {
+      "description": "<p>Despeja las vías respiratorias del objetivo si se está asfixiando con algo.</p>"
+    },
+    "Appare Vestigium": {
+      "description": "<p>Revela rastros de magia, incluidas huellas y marcas.</p>"
+    },
+    "Bubble-Head Charm": {
+      "description": "<p>Produce una gran burbuja de aire alrededor de la cabeza; se usa comúnmente como equivalente mágico de un equipo de buceo.</p>"
+    },
+    "Calvorio": {
+      "description": "<p>Elimina el cabello de la víctima.</p>"
+    },
+    "Caterwauling Charm": {
+      "description": "<p>Quien entra en el perímetro de este hechizo activa un chillido agudo.</p>"
+    },
+    "Densaugeo": {
+      "description": "<p>Embrujo que hace crecer rápidamente los dientes de la víctima, aunque también puede restaurar dientes perdidos.</p>"
+    },
+    "Episkey": {
+      "description": "<p>Sirve para curar heridas menores.</p>"
+    },
+    "Erecto": {
+      "description": "<p>Sirve para levantar una tienda u otra estructura vertical.</p>"
+    },
+    "Ferret to Human": {
+      "description": "<p>Transforma un hurón en humano.</p>"
+    },
+    "Geminio": {
+      "description": "<p>Duplica el objetivo. Usado para duplicar objetos indefinidamente a propósito, se conoce como la Maldición Gemino.</p>"
+    },
+    "Homenum Revelio": {
+      "description": "<p>Revela presencia humana en las cercanías del lanzador.</p>"
+    },
+    "Homonculous Charm": {
+      "description": "<p>Rastrea los movimientos de seres humanos. No se deja engañar por métodos de ocultación como capas de invisibilidad, la poción multijugos o animagos transformados.</p>"
+    },
+    "Incarcerous": {
+      "description": "<p>Ata al objetivo con cuerdas conjuradas de la nada.</p>"
+    },
+    "Legilimens": {
+      "description": "<p>Permite al lanzador adentrarse en la mente de la víctima para ver sus recuerdos, pensamientos y emociones.</p>"
+    },
+    "Levicorpus": {
+      "description": "<p>Cuelga a la gente por el tobillo en el aire.</p>"
+    },
+    "Liberacorpus": {
+      "description": "<p>El contrahechizo de Levicorpus.</p>"
+    },
+    "Meteolojinx Recanto": {
+      "description": "<p>Hace cesar los efectos climáticos provocados por maleficios.</p>"
+    },
+    "Mimblewimble": {
+      "description": "<p>Ata la lengua del objetivo en un nudo, impidiéndole hablar con coherencia o pronunciar incantaciones, útil en duelos.</p>"
+    },
+    "Obliviate": {
+      "description": "<p>Borra recuerdos concretos.</p>"
+    },
+    "Oscausi": {
+      "description": "<p>Sella la boca de alguien, como si nunca hubiera estado allí.</p>"
+    },
+    "Quietus": {
+      "description": "<p>Hace que el objetivo suene más bajo. Es el contrahechizo del encantamiento amplificador.</p>"
+    },
+    "Refilling Charm": {
+      "description": "<p>Rellena aquello que el lanzador señale con la bebida que originalmente había en el recipiente.</p>"
+    },
+    "Rennervate": {
+      "description": "<p>Despierta a una víctima inconsciente. Es el contrahechizo del hechizo aturdidor.</p>"
+    },
+    "Reverte": {
+      "description": "<p>Devuelve los objetos a su posición o estado original.</p>"
+    },
+    "Sectumsempra": {
+      "description": "<p>Lacera al objetivo como si lo hubiera 'cortado una espada'. La víctima puede desangrarse fácilmente.</p>"
+    },
+    "Silencio": {
+      "description": "<p>Vuelve algo silencioso.</p>"
+    },
+    "Stinging Jinx": {
+      "description": "<p>Pica la piel de un objetivo.</p>"
+    },
+    "Surgito": {
+      "description": "<p>Contrahechizo que sirve para eliminar encantamientos.</p>"
+    },
+    "Tergeo": {
+      "description": "<p>Absorbe líquidos y limpia objetos.</p>"
+    },
+    "Vipera Evanesca": {
+      "description": "<p>Desvanece serpientes. Es el contrahechizo del hechizo convocador de serpientes.</p>"
+    },
+    "Vulnera Sanentur": {
+      "description": "<p>Hechizo curativo que ralentiza el sangrado, limpia residuos y cierra heridas. Es la contramaldición de Sectumsempra.</p>"
+    },
+    "Anti-Disapparition Jinx": {
+      "description": "<p>Impide la desaparición en una zona. Se usa para atrapar a un enemigo en un área.</p>"
+    },
+    "Bedazzling Hex": {
+      "description": "<p>Permite al lanzador disfrazar cosas.</p>"
+    },
+    "Capacious Extremis": {
+      "description": "<p>Amplía las dimensiones internas de un objeto sin afectar las externas, aumentando su capacidad y aligerando su contenido.</p>"
+    },
+    "Cascading Jinx": {
+      "description": "<p>Ataca a varios oponentes próximos entre sí.</p>"
+    },
+    "Cave Inimicum": {
+      "description": "<p>Produce un límite que mantiene oculto al lanzador de los demás.</p>"
+    },
+    "Confringo": {
+      "description": "<p>Produce una explosión ardiente.</p>"
+    },
+    "Defodio": {
+      "description": "<p>Permite al lanzador excavar y tallar a través del objetivo.</p>"
+    },
+    "Deprimo": {
+      "description": "<p>Encantamiento usado para abrir agujeros en el suelo.</p>"
+    },
+    "Descendo": {
+      "description": "<p>Hace que un objeto caiga o se mueva hacia abajo.</p>"
+    },
+    "Duro": {
+      "description": "<p>Convierte un objeto en piedra.</p>"
+    },
+    "Expulso": {
+      "description": "<p>Provoca una explosión, peculiar porque usa presión en lugar de calor.</p>"
+    },
+    "Flagrante Curse": {
+      "description": "<p>Hace que los objetos quemen al contacto.</p>"
+    },
+    "Glisseo": {
+      "description": "<p>Hace que los escalones de una escalera se aplanen formando un tobogán.</p>"
+    },
+    "Homorphus Charm": {
+      "description": "<p>Hace que un animago u objeto transfigurado recupere su forma normal.</p>"
+    },
+    "Mobilicorpus": {
+      "description": "<p>Levita y mueve cuerpos.</p>"
+    },
+    "Nebulus": {
+      "description": "<p>Crea niebla desde la punta de la varita.</p>"
+    },
+    "Obscuro": {
+      "description": "<p>Venda los ojos del objetivo.</p>"
+    },
+    "Partis Temporus": {
+      "description": "<p>Crea una abertura temporal en el objetivo.</p>"
+    },
+    "Repello Muggletum": {
+      "description": "<p>Mantiene a los muggles alejados de lugares mágicos, haciéndoles recordar reuniones que se perdieron y olvidar lo que hacían.</p>"
+    },
+    "Revelio": {
+      "description": "<p>Revela secretos sobre una persona u objeto.</p>"
+    },
+    "Salvio Hexia": {
+      "description": "<p>Protege contra maleficios.</p>"
+    },
+    "Teleportation Spell": {
+      "description": "<p>Desvanece objetos que luego aparecen en otro lugar.</p>"
+    }
+  }
+}

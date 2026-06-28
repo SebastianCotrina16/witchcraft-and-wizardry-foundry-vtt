@@ -1,0 +1,25 @@
+{
+  "_id": "showCourage00011",
+  "_key": "!items!showCourage00011",
+  "name": "Show Courage",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Soul when you try to show courage in the face of something truly terrifying.</p><p><strong>10+:</strong> You look fear in the eye and do not break. Gain +1 forward when challenging it.</p><p><strong>7-9:</strong> You stand strong but stay scared. Choose one: you're terrified and everyone knows; you take -1 forward when challenging it; you let your friends down but gain +1 forward when challenging it.</p><p><strong>6-:</strong> You cower in fear, running from the fight, and take -1 forward when challenging it.</p>",
+    "key": "showCourage",
+    "attribute": "soul",
+    "results": {
+      "success": "You look fear in the eye and do not break. Gain +1 forward when challenging it.",
+      "partial": "You stand strong but stay scared. Choose one: you're terrified and everyone knows; you take -1 forward when challenging it; you let your friends down but gain +1 forward when challenging it.",
+      "failure": "You cower in fear, running from the fight, and take -1 forward when challenging it."
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  }
+}

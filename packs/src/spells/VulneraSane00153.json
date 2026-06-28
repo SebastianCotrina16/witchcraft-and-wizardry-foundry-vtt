@@ -1,0 +1,22 @@
+{
+  "_id": "VulneraSane00153",
+  "_key": "!items!VulneraSane00153",
+  "name": "Vulnera Sanentur",
+  "type": "spell",
+  "img": "icons/svg/heal.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Healing spell that slows blood flow, clears residue, and knits wounds. It is the counter-curse to Sectumsempra.</p>",
+    "year": 6,
+    "spellType": "healing",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 15400,
+  "ownership": {
+    "default": 0
+  }
+}

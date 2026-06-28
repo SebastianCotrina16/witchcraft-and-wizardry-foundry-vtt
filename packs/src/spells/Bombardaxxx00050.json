@@ -1,0 +1,22 @@
+{
+  "_id": "Bombardaxxx00050",
+  "_key": "!items!Bombardaxxx00050",
+  "name": "Bombarda",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Provokes a small explosion.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5100,
+  "ownership": {
+    "default": 0
+  }
+}

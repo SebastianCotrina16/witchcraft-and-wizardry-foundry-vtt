@@ -1,0 +1,22 @@
+{
+  "_id": "Locomotorxx00115",
+  "_key": "!items!Locomotorxx00115",
+  "name": "Locomotor",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Allows a witch or wizard to levitate a target a few inches off the ground and then move said object in any given direction. Similar to the Summoning Charm, a specific object can be moved by calling the object aloud after saying the incantation.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11600,
+  "ownership": {
+    "default": 0
+  }
+}

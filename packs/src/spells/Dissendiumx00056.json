@@ -1,0 +1,22 @@
+{
+  "_id": "Dissendiumx00056",
+  "_key": "!items!Dissendiumx00056",
+  "name": "Dissendium",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Although the only known canonical effect is to open secret passageways, it's possible, based on its use in 1997, that it opens things in general.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5700,
+  "ownership": {
+    "default": 0
+  }
+}

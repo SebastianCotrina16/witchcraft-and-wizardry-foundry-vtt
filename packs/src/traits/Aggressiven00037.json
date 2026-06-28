@@ -1,0 +1,20 @@
+{
+  "_id": "Aggressiven00037",
+  "_key": "!items!Aggressiven00037",
+  "name": "Aggressive",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3800,
+  "ownership": {
+    "default": 0
+  }
+}

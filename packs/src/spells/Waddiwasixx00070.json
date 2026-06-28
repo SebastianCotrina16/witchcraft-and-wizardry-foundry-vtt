@@ -1,0 +1,22 @@
+{
+  "_id": "Waddiwasixx00070",
+  "_key": "!items!Waddiwasixx00070",
+  "name": "Waddiwasi",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Used to shoot small, soft masses of whatever the caster so desires at the target.</p>",
+    "year": 3,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7100,
+  "ownership": {
+    "default": 0
+  }
+}

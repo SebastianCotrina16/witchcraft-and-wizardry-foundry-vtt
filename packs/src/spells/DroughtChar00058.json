@@ -1,0 +1,22 @@
+{
+  "_id": "DroughtChar00058",
+  "_key": "!items!DroughtChar00058",
+  "name": "Drought Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes puddles and ponds to dry up. Though not powerful enough to drain a body of water like a lake.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5900,
+  "ownership": {
+    "default": 0
+  }
+}

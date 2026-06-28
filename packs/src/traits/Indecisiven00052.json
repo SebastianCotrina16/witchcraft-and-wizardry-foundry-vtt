@@ -1,0 +1,20 @@
+{
+  "_id": "Indecisiven00052",
+  "_key": "!items!Indecisiven00052",
+  "name": "Indecisive",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5300,
+  "ownership": {
+    "default": 0
+  }
+}

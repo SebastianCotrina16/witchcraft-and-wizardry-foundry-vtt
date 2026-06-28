@@ -1,0 +1,22 @@
+{
+  "_id": "SlugulusEru00043",
+  "_key": "!items!SlugulusEru00043",
+  "name": "Slugulus Eructo",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Forces the victim to burp up slimy slugs.</p>",
+    "year": 2,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4400,
+  "ownership": {
+    "default": 0
+  }
+}

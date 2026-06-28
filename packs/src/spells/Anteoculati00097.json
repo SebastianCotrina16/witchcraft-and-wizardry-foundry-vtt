@@ -1,0 +1,22 @@
+{
+  "_id": "Anteoculati00097",
+  "_key": "!items!Anteoculati00097",
+  "name": "Anteoculatia",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes the target to grow antlers.</p>",
+    "year": 5,
+    "spellType": "hex",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9800,
+  "ownership": {
+    "default": 0
+  }
+}

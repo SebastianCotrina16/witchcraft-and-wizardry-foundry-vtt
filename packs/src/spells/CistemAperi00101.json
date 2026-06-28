@@ -1,0 +1,22 @@
+{
+  "_id": "CistemAperi00101",
+  "_key": "!items!CistemAperi00101",
+  "name": "Cistem Aperio",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Opens chests and boxes.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10200,
+  "ownership": {
+    "default": 0
+  }
+}

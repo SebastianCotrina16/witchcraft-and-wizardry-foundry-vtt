@@ -1,0 +1,25 @@
+{
+  "_id": "castASpellx00012",
+  "_key": "!items!castASpellx00012",
+  "name": "Cast A Spell",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Magic when you try to cast a spell. -1 forward for each year above your character, +1 forward for each year below.</p><p><strong>10+:</strong> The spell succeeds.</p><p><strong>7-9:</strong> The spell succeeds with side effects; choose two: an ally takes a condition from a partial misfire (they choose); the spell is different than expected; someone or something is alerted to the casting; your wand is thrown from your hands and lands nearby.</p><p><strong>6-:</strong> The spell rebounds and the caster takes a condition — one additional condition for each year past the current year of the spell attempted.</p>",
+    "key": "castASpell",
+    "attribute": "magic",
+    "results": {
+      "success": "The spell succeeds.",
+      "partial": "The spell succeeds with side effects; choose two: an ally takes a condition from a partial misfire (they choose); the spell is different than expected; someone or something is alerted to the casting; your wand is thrown from your hands and lands nearby.",
+      "failure": "The spell rebounds and the caster takes a condition — one additional condition for each year past the current year of the spell attempted."
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  }
+}

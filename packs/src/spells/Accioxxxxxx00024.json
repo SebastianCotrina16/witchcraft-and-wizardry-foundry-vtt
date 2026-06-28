@@ -1,0 +1,22 @@
+{
+  "_id": "Accioxxxxxx00024",
+  "_key": "!items!Accioxxxxxx00024",
+  "name": "Accio",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Summoning Charm; used to summon objects toward the caster (usually from a long distance).</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 2500,
+  "ownership": {
+    "default": 0
+  }
+}

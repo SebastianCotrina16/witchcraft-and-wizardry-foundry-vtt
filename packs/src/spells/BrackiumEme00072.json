@@ -1,0 +1,22 @@
+{
+  "_id": "BrackiumEme00072",
+  "_key": "!items!BrackiumEme00072",
+  "name": "Brackium Emendo",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>If used correctly, it is claimed this spell will heal broken bones; this theory is supported by the etymology.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7300,
+  "ownership": {
+    "default": 0
+  }
+}

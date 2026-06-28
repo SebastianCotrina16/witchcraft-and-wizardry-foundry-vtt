@@ -1,0 +1,22 @@
+{
+  "_id": "HotAirCharm00083",
+  "_key": "!items!HotAirCharm00083",
+  "name": "Hot-Air Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Conjures a stream of hot air.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8400,
+  "ownership": {
+    "default": 0
+  }
+}

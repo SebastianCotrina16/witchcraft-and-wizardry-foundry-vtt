@@ -1,0 +1,22 @@
+{
+  "_id": "PartisTempo00171",
+  "_key": "!items!PartisTempo00171",
+  "name": "Partis Temporus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Creates a temporary gap in the target.</p>",
+    "year": 7,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17200,
+  "ownership": {
+    "default": 0
+  }
+}

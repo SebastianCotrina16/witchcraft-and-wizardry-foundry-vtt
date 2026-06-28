@@ -1,0 +1,22 @@
+{
+  "_id": "Incendioxxx00005",
+  "_key": "!items!Incendioxxx00005",
+  "name": "Incendio",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Produces fire.</p>",
+    "year": 1,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  }
+}

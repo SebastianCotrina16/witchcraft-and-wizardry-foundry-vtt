@@ -1,0 +1,22 @@
+{
+  "_id": "Repariforsx00066",
+  "_key": "!items!Repariforsx00066",
+  "name": "Reparifors",
+  "type": "spell",
+  "img": "icons/svg/heal.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Reverts minor magically-induced ailments, such as paralysis and poisoning.</p>",
+    "year": 3,
+    "spellType": "healing",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6700,
+  "ownership": {
+    "default": 0
+  }
+}

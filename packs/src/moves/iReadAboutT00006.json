@@ -1,0 +1,25 @@
+{
+  "_id": "iReadAboutT00006",
+  "_key": "!items!iReadAboutT00006",
+  "name": "I Read About That",
+  "type": "move",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Roll +Mind when you try to remember some history, personal or otherwise.</p><p><strong>10+:</strong> Ask three questions.</p><p><strong>7-9:</strong> Ask two: What does it do? What does it look, sound, smell, taste or feel like? Is it dangerous? Where is it from? Who do I know related to it?</p>",
+    "key": "iReadAboutThat",
+    "attribute": "mind",
+    "results": {
+      "success": "Ask three questions.",
+      "partial": "Ask two: What does it do? What does it look, sound, smell, taste or feel like? Is it dangerous? Where is it from? Who do I know related to it?",
+      "failure": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  }
+}

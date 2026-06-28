@@ -1,0 +1,22 @@
+{
+  "_id": "Reductoxxxx00090",
+  "_key": "!items!Reductoxxxx00090",
+  "name": "Reducto",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Breaks objects. In stronger usages, disintegrates them.</p>",
+    "year": 4,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 9100,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Incarcerous00135",
+  "_key": "!items!Incarcerous00135",
+  "name": "Incarcerous",
+  "type": "spell",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Ties up the target with ropes conjured from thin air.</p>",
+    "year": 6,
+    "spellType": "conjuration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13600,
+  "ownership": {
+    "default": 0
+  }
+}

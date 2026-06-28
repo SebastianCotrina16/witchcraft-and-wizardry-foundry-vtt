@@ -1,0 +1,22 @@
+{
+  "_id": "Conjunctivi00074",
+  "_key": "!items!Conjunctivi00074",
+  "name": "Conjunctivitis Curse",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes irritation in the eyes, forcing them to swell shut.</p>",
+    "year": 4,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7500,
+  "ownership": {
+    "default": 0
+  }
+}

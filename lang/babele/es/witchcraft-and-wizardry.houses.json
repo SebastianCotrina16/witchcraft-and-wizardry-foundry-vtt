@@ -1,0 +1,42 @@
+{
+  "label": "Las Cuatro Casas",
+  "collection": "witchcraft-and-wizardry.houses",
+  "entries": {
+    "Gryffindor": {
+      "name": "Gryffindor",
+      "pages": {
+        "Gryffindor": {
+          "name": "Gryffindor",
+          "text": "<p><strong>Fantasma de la Casa:</strong> Nick Casi Decapitado</p><p><strong>Sala Común:</strong> Lo alto de la Torre de Gryffindor</p><p><em>Entrada por contraseña.</em></p><p><strong>Elige un beneficio:</strong></p><ul><li>Tener éxito automático en un movimiento de Mostrar Valentía una vez al día.</li><li>Quitarte la condición Herido una vez al día.</li><li>Toma +1 progreso a todas las tiradas de Cuerpo durante 1 escena, una vez al día.</li></ul>"
+        }
+      }
+    },
+    "Hufflepuff": {
+      "name": "Hufflepuff",
+      "pages": {
+        "Hufflepuff": {
+          "name": "Hufflepuff",
+          "text": "<p><strong>Fantasma de la Casa:</strong> El Fraile Gordo</p><p><strong>Sala Común:</strong> Grandes barriles en el pasillo de las cocinas</p><p><em>Entrada por golpeteo rítmico.</em></p><p><strong>Elige un beneficio:</strong></p><ul><li>Tener éxito automático en un movimiento de Tratar Heridas una vez al día.</li><li>Quitarte la condición Exhausto una vez al día.</li><li>Toma +1 progreso a todas las tiradas de Alma durante 1 escena, una vez al día.</li></ul>"
+        }
+      }
+    },
+    "Ravenclaw": {
+      "name": "Ravenclaw",
+      "pages": {
+        "Ravenclaw": {
+          "name": "Ravenclaw",
+          "text": "<p><strong>Fantasma de la Casa:</strong> La Dama Gris</p><p><strong>Sala Común:</strong> Lo alto de la Torre de Ravenclaw</p><p><em>Entrada por acertijo.</em></p><p><strong>Elige un beneficio:</strong></p><ul><li>Tener éxito automático en un movimiento de Leí Sobre Eso una vez al día.</li><li>Quitarte la condición Aturdido una vez al día.</li><li>Toma +1 progreso a todas las tiradas de Mente durante 1 escena, una vez al día.</li></ul>"
+        }
+      }
+    },
+    "Slytherin": {
+      "name": "Slytherin",
+      "pages": {
+        "Slytherin": {
+          "name": "Slytherin",
+          "text": "<p><strong>Fantasma de la Casa:</strong> El Barón Sanguinario</p><p><strong>Sala Común:</strong> Las Mazmorras</p><p><em>Entrada secreta por contraseña.</em></p><p><strong>Elige un beneficio:</strong></p><ul><li>Tener éxito automático en un movimiento de Convencer una vez al día.</li><li>Quitarte la condición Afligido una vez al día.</li><li>Repetir una tirada una vez al día.</li></ul>"
+        }
+      }
+    }
+  }
+}

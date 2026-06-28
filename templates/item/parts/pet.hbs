@@ -1,0 +1,16 @@
+{{!-- Pet body: species, personality, look. --}}
+<div class="waw-field-grid">
+  <label>{{localize "WAW.Field.Species"}}
+    <select name="system.species" {{#unless editable}}disabled{{/unless}}>
+      {{#each config.pets as |labelKey key|}}
+      <option value="{{key}}" {{#if (wawEq @root.system.species key)}}selected{{/if}}>{{localize labelKey}}</option>
+      {{/each}}
+    </select>
+  </label>
+  <label>{{localize "WAW.Field.Personality"}}
+    <input type="text" name="system.personality" value="{{system.personality}}" {{#unless editable}}disabled{{/unless}}>
+  </label>
+  <label>{{localize "WAW.Field.Look"}}
+    <input type="text" name="system.look" value="{{system.look}}" {{#unless editable}}disabled{{/unless}}>
+  </label>
+</div>

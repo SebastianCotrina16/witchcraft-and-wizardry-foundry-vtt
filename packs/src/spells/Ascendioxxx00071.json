@@ -1,0 +1,22 @@
+{
+  "_id": "Ascendioxxx00071",
+  "_key": "!items!Ascendioxxx00071",
+  "name": "Ascendio",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Lifts the caster high into the air. The charm also works underwater, propelling the caster above the surface.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7200,
+  "ownership": {
+    "default": 0
+  }
+}

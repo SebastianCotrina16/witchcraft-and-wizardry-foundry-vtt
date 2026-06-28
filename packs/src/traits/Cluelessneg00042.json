@@ -1,0 +1,20 @@
+{
+  "_id": "Cluelessneg00042",
+  "_key": "!items!Cluelessneg00042",
+  "name": "Clueless",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4300,
+  "ownership": {
+    "default": 0
+  }
+}

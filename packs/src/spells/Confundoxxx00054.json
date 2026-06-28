@@ -1,0 +1,22 @@
+{
+  "_id": "Confundoxxx00054",
+  "_key": "!items!Confundoxxx00054",
+  "name": "Confundo",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes the victim to become confused and befuddled.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5500,
+  "ownership": {
+    "default": 0
+  }
+}

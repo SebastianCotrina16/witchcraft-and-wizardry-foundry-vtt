@@ -1,0 +1,22 @@
+{
+  "_id": "Multicorfor00085",
+  "_key": "!items!Multicorfor00085",
+  "name": "Multicorfors",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Multicorfors is a charm used to change the color and style of one's clothing.</p>",
+    "year": 4,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 8600,
+  "ownership": {
+    "default": 0
+  }
+}

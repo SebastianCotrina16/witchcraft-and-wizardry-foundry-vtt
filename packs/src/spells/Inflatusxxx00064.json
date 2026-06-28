@@ -1,0 +1,22 @@
+{
+  "_id": "Inflatusxxx00064",
+  "_key": "!items!Inflatusxxx00064",
+  "name": "Inflatus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Inflates the target, filling it with air.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6500,
+  "ownership": {
+    "default": 0
+  }
+}

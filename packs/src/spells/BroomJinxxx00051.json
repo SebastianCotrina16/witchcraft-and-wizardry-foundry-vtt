@@ -1,0 +1,22 @@
+{
+  "_id": "BroomJinxxx00051",
+  "_key": "!items!BroomJinxxx00051",
+  "name": "Broom Jinx",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Used to make broomsticks try to throw their riders off through a variety of means such as sudden lurches and violent swishing movements. Constant eye contact is needed for the jinx to keep working.</p>",
+    "year": 3,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5200,
+  "ownership": {
+    "default": 0
+  }
+}

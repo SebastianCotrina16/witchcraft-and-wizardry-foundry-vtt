@@ -1,0 +1,22 @@
+{
+  "_id": "BubbleProdu00073",
+  "_key": "!items!BubbleProdu00073",
+  "name": "Bubble-Producing Spell",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Produces a stream of non-bursting bubbles; there are two similar spells.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7400,
+  "ownership": {
+    "default": 0
+  }
+}

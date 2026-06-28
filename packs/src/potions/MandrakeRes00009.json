@@ -1,0 +1,21 @@
+{
+  "_id": "MandrakeRes00009",
+  "_key": "!items!MandrakeRes00009",
+  "name": "Mandrake Restorative Draught",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Returns those who have been Petrified or otherwise transfigured to their original state.</p>",
+    "effect": "Cures petrification",
+    "quantity": 1,
+    "price": 30
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

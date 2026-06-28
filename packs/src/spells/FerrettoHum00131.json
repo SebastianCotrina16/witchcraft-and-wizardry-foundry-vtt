@@ -1,0 +1,22 @@
+{
+  "_id": "FerrettoHum00131",
+  "_key": "!items!FerrettoHum00131",
+  "name": "Ferret to Human",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Transforms a ferret into a human.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13200,
+  "ownership": {
+    "default": 0
+  }
+}

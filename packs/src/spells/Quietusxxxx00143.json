@@ -1,0 +1,22 @@
+{
+  "_id": "Quietusxxxx00143",
+  "_key": "!items!Quietusxxxx00143",
+  "name": "Quietus",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Makes a target sound quieter. It is the counter-charm to the Amplifying Charm.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 14400,
+  "ownership": {
+    "default": 0
+  }
+}

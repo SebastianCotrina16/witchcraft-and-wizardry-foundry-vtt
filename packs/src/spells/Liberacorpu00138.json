@@ -1,0 +1,22 @@
+{
+  "_id": "Liberacorpu00138",
+  "_key": "!items!Liberacorpu00138",
+  "name": "Liberacorpus",
+  "type": "spell",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>The counter-jinx to Levicorpus.</p>",
+    "year": 6,
+    "spellType": "jinx",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 13900,
+  "ownership": {
+    "default": 0
+  }
+}

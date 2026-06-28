@@ -1,0 +1,125 @@
+{
+  "id": "witchcraft-and-wizardry",
+  "title": "Witchcraft and Wizardry",
+  "description": "An unofficial, fan-made Foundry VTT implementation of the Witchcraft and Wizardry tabletop role-playing game — a Powered by the Apocalypse (PbtA) system set in a school of magic.",
+  "version": "0.7.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "SebastianCotrina16",
+      "url": "https://github.com/SebastianCotrina16"
+    }
+  ],
+  "esmodules": ["module/waw.mjs"],
+  "styles": ["styles/waw.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "npc": {}
+    },
+    "Item": {
+      "spell": {},
+      "trait": {},
+      "wand": {},
+      "pet": {},
+      "equipment": {},
+      "potion": {},
+      "move": {}
+    }
+  },
+  "packs": [
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "witchcraft-and-wizardry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "moves",
+      "label": "Moves",
+      "path": "packs/moves",
+      "type": "Item",
+      "system": "witchcraft-and-wizardry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "traits",
+      "label": "Personality Traits",
+      "path": "packs/traits",
+      "type": "Item",
+      "system": "witchcraft-and-wizardry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "potions",
+      "label": "Potions",
+      "path": "packs/potions",
+      "type": "Item",
+      "system": "witchcraft-and-wizardry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "houses",
+      "label": "The Four Houses",
+      "path": "packs/houses",
+      "type": "JournalEntry",
+      "system": "witchcraft-and-wizardry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Witchcraft and Wizardry",
+      "sorting": "m",
+      "packs": ["spells", "moves", "traits", "potions", "houses"]
+    }
+  ],
+  "relationships": {
+    "recommended": [
+      {
+        "id": "babele",
+        "type": "module",
+        "reason": "Automatically translates compendium content (spells, moves, traits, potions, houses) to the client's language. Spanish translations are bundled with this system."
+      }
+    ]
+  },
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "background": "",
+  "url": "https://github.com/SebastianCotrina16/witchcraft-and-wizardry-foundry-vtt",
+  "manifest": "https://raw.githubusercontent.com/SebastianCotrina16/witchcraft-and-wizardry-foundry-vtt/master/system.json",
+  "download": "https://github.com/SebastianCotrina16/witchcraft-and-wizardry-foundry-vtt/archive/refs/heads/master.zip",
+  "bugs": "https://github.com/SebastianCotrina16/witchcraft-and-wizardry-foundry-vtt/issues",
+  "readme": "README.md",
+  "license": "LICENSE",
+  "flags": {
+    "hotReload": {
+      "extensions": ["css", "hbs", "json"],
+      "paths": ["styles", "templates", "lang"]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "AntidotetoC00015",
+  "_key": "!items!AntidotetoC00015",
+  "name": "Antidote to Common Poisons",
+  "type": "potion",
+  "img": "icons/svg/pill.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>A bezoar-based remedy that neutralizes most common poisons.</p>",
+    "effect": "Neutralizes common poisons",
+    "quantity": 1,
+    "price": 12
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  }
+}

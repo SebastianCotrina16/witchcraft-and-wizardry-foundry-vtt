@@ -1,0 +1,22 @@
+{
+  "_id": "CheeringCha00052",
+  "_key": "!items!CheeringCha00052",
+  "name": "Cheering Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Makes the target feel happy. Overuse of the spell may cause the target to break into an uncontrollable laughing fit.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5300,
+  "ownership": {
+    "default": 0
+  }
+}

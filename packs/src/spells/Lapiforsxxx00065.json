@@ -1,0 +1,22 @@
+{
+  "_id": "Lapiforsxxx00065",
+  "_key": "!items!Lapiforsxxx00065",
+  "name": "Lapifors",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Transforms the target into a rabbit.</p>",
+    "year": 3,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6600,
+  "ownership": {
+    "default": 0
+  }
+}

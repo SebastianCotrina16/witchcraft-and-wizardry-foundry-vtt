@@ -1,0 +1,22 @@
+{
+  "_id": "CarpeRetrac00031",
+  "_key": "!items!CarpeRetrac00031",
+  "name": "Carpe Retractum",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Produces a rope of light used to pull objects towards the caster, or, if the target is fixed in place, to pull the caster towards the target.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 3200,
+  "ownership": {
+    "default": 0
+  }
+}

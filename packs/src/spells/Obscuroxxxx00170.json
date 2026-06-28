@@ -1,0 +1,22 @@
+{
+  "_id": "Obscuroxxxx00170",
+  "_key": "!items!Obscuroxxxx00170",
+  "name": "Obscuro",
+  "type": "spell",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Blindfolds the target.</p>",
+    "year": 7,
+    "spellType": "conjuration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 17100,
+  "ownership": {
+    "default": 0
+  }
+}

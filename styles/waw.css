@@ -1,0 +1,501 @@
+/* ===========================================================================
+   Witchcraft and Wizardry — system styles
+   Elegant dark "wizarding" theme. Everything is namespaced under `.waw`.
+   =========================================================================== */
+
+:root {
+  --waw-gold: #c9a45c;
+  --waw-gold-soft: #e6d3a3;
+  --waw-ink: #1c1730;
+  --waw-ink-2: #25203c;
+  --waw-panel: rgba(40, 33, 66, 0.72);
+  --waw-panel-2: rgba(30, 25, 50, 0.6);
+  --waw-line: rgba(201, 164, 92, 0.32);
+  --waw-text: #ece7f5;
+  --waw-text-dim: #b3a9cc;
+  --waw-accent: #8b5cc7;
+  --waw-danger: #d9576b;
+  --waw-success: #5fbf7e;
+  --waw-partial: #e0b64a;
+
+  /* House colours (banner accents) */
+  --waw-gryffindor: #7f0f12;
+  --waw-gryffindor-2: #d4af37;
+  --waw-slytherin: #14532d;
+  --waw-slytherin-2: #aab7b7;
+  --waw-ravenclaw: #1b2a6b;
+  --waw-ravenclaw-2: #946b2d;
+  --waw-hufflepuff: #b58a00;
+  --waw-hufflepuff-2: #2a2a2a;
+  --waw-unsorted: #5a4b86;
+  --waw-unsorted-2: var(--waw-gold);
+}
+
+/* ---- Shell ----------------------------------------------------------------- */
+.waw.sheet .window-content { padding: 0; }
+
+.waw-sheet {
+  --house: var(--waw-unsorted);
+  --house-2: var(--waw-unsorted-2);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.75rem;
+  height: 100%;
+  overflow-y: auto;
+  color: var(--waw-text);
+  background:
+    radial-gradient(120% 60% at 50% -10%, rgba(139, 92, 199, 0.18), transparent 60%),
+    linear-gradient(180deg, var(--waw-ink), var(--waw-ink-2));
+  font-family: var(--font-primary, "Signika", sans-serif);
+}
+.waw-sheet input,
+.waw-sheet select,
+.waw-sheet textarea {
+  color: var(--waw-text);
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--waw-line);
+  border-radius: 5px;
+}
+.waw-sheet input:focus,
+.waw-sheet select:focus,
+.waw-sheet textarea:focus {
+  outline: none;
+  border-color: var(--house-2);
+  box-shadow: 0 0 0 2px rgba(201, 164, 92, 0.25);
+}
+.waw-sheet select option { background: var(--waw-ink-2); }
+
+/* House accent mapping */
+.waw-house-gryffindor { --house: var(--waw-gryffindor); --house-2: var(--waw-gryffindor-2); }
+.waw-house-slytherin  { --house: var(--waw-slytherin);  --house-2: var(--waw-slytherin-2); }
+.waw-house-ravenclaw  { --house: var(--waw-ravenclaw);  --house-2: var(--waw-ravenclaw-2); }
+.waw-house-hufflepuff { --house: var(--waw-hufflepuff); --house-2: var(--waw-hufflepuff-2); }
+.waw-house-unsorted   { --house: var(--waw-unsorted);   --house-2: var(--waw-unsorted-2); }
+
+/* ---- Banner ---------------------------------------------------------------- */
+.waw-banner {
+  --house: var(--waw-unsorted);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.9rem;
+  align-items: center;
+  padding: 0.7rem 0.85rem;
+  border-radius: 12px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--house) 55%, transparent), transparent 70%),
+    var(--waw-panel);
+  border: 1px solid var(--waw-line);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+.waw-crest {
+  padding: 3px;
+  border-radius: 12px;
+  background: linear-gradient(160deg, var(--house-2), color-mix(in srgb, var(--house) 70%, black));
+}
+.waw-portrait {
+  display: block;
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.waw-banner-main { display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
+.waw-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid transparent !important;
+  border-radius: 0 !important;
+  color: var(--waw-gold-soft);
+}
+.waw-name:hover, .waw-name:focus { border-bottom-color: var(--house-2) !important; box-shadow: none !important; }
+
+.waw-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.waw-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.5rem;
+  background: var(--waw-panel-2);
+  border: 1px solid var(--waw-line);
+  border-radius: 999px;
+  font-size: 0.78rem;
+}
+.waw-pill > span { color: var(--waw-text-dim); text-transform: uppercase; font-size: 0.62rem; letter-spacing: 0.06em; }
+.waw-pill select, .waw-pill input { border: none !important; background: transparent !important; padding: 0 0.1rem; }
+.waw-pill-sm input { width: 3rem; text-align: center; }
+
+.waw-banner-side { display: flex; align-items: center; }
+.waw-xp { display: flex; flex-direction: column; align-items: center; gap: 0.3rem; }
+.waw-xp-label { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--waw-text-dim); }
+.waw-xp-track { display: flex; gap: 0.25rem; }
+.waw-xp-pip {
+  width: 16px; height: 16px; padding: 0;
+  border-radius: 50%;
+  border: 1.5px solid var(--waw-gold);
+  background: transparent;
+  cursor: pointer;
+  transition: transform 0.1s ease, background 0.1s ease;
+}
+.waw-xp-pip.filled { background: radial-gradient(circle at 35% 30%, var(--waw-gold-soft), var(--waw-gold)); box-shadow: 0 0 6px rgba(201, 164, 92, 0.6); }
+.waw-xp-pip:hover { transform: scale(1.15); }
+
+/* ---- Conditions strip ------------------------------------------------------ */
+.waw-condition-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  padding: 0.35rem 0.5rem;
+  border-radius: 10px;
+  background: var(--waw-panel-2);
+  border: 1px solid var(--waw-line);
+}
+.waw-condition-strip.is-out { border-color: var(--waw-danger); box-shadow: 0 0 0 1px var(--waw-danger) inset; }
+.waw-cond-pill {
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--waw-line);
+  background: transparent;
+  color: var(--waw-text-dim);
+  font-size: 0.76rem;
+  cursor: pointer;
+  transition: all 0.12s ease;
+}
+.waw-cond-pill:hover { border-color: var(--waw-danger); color: var(--waw-text); }
+.waw-cond-pill.active {
+  background: linear-gradient(180deg, var(--waw-danger), color-mix(in srgb, var(--waw-danger) 70%, black));
+  border-color: var(--waw-danger);
+  color: #fff;
+  font-weight: 700;
+}
+.waw-out-flag { margin-left: auto; color: var(--waw-danger); font-weight: 700; text-transform: uppercase; font-size: 0.72rem; }
+
+/* ---- Tabs ------------------------------------------------------------------ */
+.waw-tabs { display: flex; gap: 0.25rem; border-bottom: 2px solid var(--waw-line); padding-bottom: 0; }
+.waw-tab {
+  flex: 1;
+  padding: 0.45rem 0.3rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  color: var(--waw-text-dim);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.12s ease, border-color 0.12s ease;
+}
+.waw-tab i { opacity: 0.8; }
+.waw-tab:hover { color: var(--waw-text); }
+.waw-tab.active { color: var(--waw-gold-soft); border-bottom-color: var(--house-2); }
+
+.waw-tab-panel { display: none; flex-direction: column; gap: 0.6rem; animation: waw-fade 0.18s ease; }
+.waw-tab-panel.active { display: flex; }
+@keyframes waw-fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+/* ---- Cards & section headers ---------------------------------------------- */
+.waw-card {
+  background: var(--waw-panel);
+  border: 1px solid var(--waw-line);
+  border-radius: 10px;
+  padding: 0.6rem 0.7rem;
+}
+.waw-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; align-items: start; }
+.waw-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--waw-gold-soft);
+  border-bottom: 1px solid var(--waw-line);
+  margin-bottom: 0.4rem;
+  padding-bottom: 0.25rem;
+}
+.waw-section-header i { color: var(--house-2); }
+.waw-hint { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--waw-text-dim); font-size: 0.68rem; }
+
+/* ---- Attribute cards ------------------------------------------------------- */
+.waw-attr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.6rem; }
+.waw-attr-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.55rem;
+  border-radius: 10px;
+  background: linear-gradient(180deg, var(--waw-panel), var(--waw-panel-2));
+  border: 1px solid var(--waw-line);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+.waw-attr-head { display: flex; justify-content: space-between; align-items: baseline; }
+.waw-attr-name { font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.82rem; color: var(--waw-gold-soft); }
+.waw-attr-mod { font-size: 1.1rem; font-weight: 800; color: var(--house-2); }
+.waw-attr-value {
+  align-self: center;
+  width: 3.4rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  padding: 0.1rem;
+}
+.waw-attr-moves { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+.waw-move-chip {
+  padding: 0.22rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--waw-line);
+  background: rgba(139, 92, 199, 0.14);
+  color: var(--waw-text);
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: all 0.12s ease;
+}
+.waw-move-chip:hover { background: var(--waw-accent); border-color: var(--waw-accent); transform: translateY(-1px); }
+
+/* ---- Spell rows ------------------------------------------------------------ */
+.waw-spell-list, .waw-trait-list, .waw-rel-list, .waw-item-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.15rem; }
+.waw-spell-row {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.25rem 0.35rem;
+  border-radius: 6px;
+  border: 1px solid transparent;
+}
+.waw-spell-row:hover { background: rgba(139, 92, 199, 0.12); }
+.waw-spell-row.is-signature { border-color: var(--waw-gold); background: rgba(201, 164, 92, 0.12); }
+.waw-year-badge {
+  flex: 0 0 auto;
+  width: 1.5rem; height: 1.5rem;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  font-size: 0.74rem; font-weight: 800;
+  color: var(--waw-ink);
+  background: radial-gradient(circle at 35% 30%, var(--waw-gold-soft), var(--waw-gold));
+}
+.waw-spell-name { flex: 1; font-weight: 600; }
+.waw-spell-type { color: var(--waw-text-dim); font-size: 0.72rem; font-style: italic; }
+
+/* ---- Traits ---------------------------------------------------------------- */
+.waw-trait-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+.waw-trait-row {
+  display: flex; align-items: center; gap: 0.35rem;
+  padding: 0.2rem 0.3rem; border-radius: 6px;
+  border-left: 3px solid transparent;
+}
+.waw-trait-pos .waw-trait-row { border-left-color: var(--waw-success); }
+.waw-trait-neg .waw-trait-row { border-left-color: var(--waw-danger); }
+.waw-trait-row:hover { background: rgba(255, 255, 255, 0.04); }
+.waw-trait-row.locked .waw-trait-name { color: var(--waw-text-dim); }
+.waw-trait-name { flex: 1; font-size: 0.84rem; }
+
+/* ---- Heritage (guided creation) card --------------------------------------- */
+.waw-heritage-actions { display: flex; gap: 0.3rem; }
+.waw-mini-btn {
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--waw-line);
+  border-radius: 6px;
+  background: rgba(139, 92, 199, 0.16);
+  color: var(--waw-text);
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+.waw-mini-btn:hover { background: var(--waw-accent); border-color: var(--waw-accent); }
+.waw-heritage-spread { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.35rem; }
+.waw-heritage-attr {
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  background: var(--waw-panel-2);
+  border: 1px solid var(--waw-line);
+  font-size: 0.78rem;
+}
+.waw-heritage-attr b { color: var(--waw-gold-soft); font-weight: 700; }
+.waw-heritage-note { margin: 0.15rem 0; font-size: 0.78rem; color: var(--waw-text-dim); }
+.waw-heritage-note b { color: var(--house-2, var(--waw-gold)); }
+
+/* ---- Relationships --------------------------------------------------------- */
+.waw-rel-row { display: flex; align-items: center; gap: 0.35rem; }
+.waw-rel-row input[type="text"] { flex: 1; }
+.waw-rel-score { width: 3rem; text-align: center; font-weight: 700; }
+
+/* ---- Generic item lists (wand / pet / equipment / potion) ------------------ */
+.waw-items { background: var(--waw-panel); border: 1px solid var(--waw-line); border-radius: 10px; padding: 0.6rem 0.7rem; }
+.waw-item-row { display: flex; align-items: center; gap: 0.45rem; padding: 0.22rem 0.3rem; border-radius: 6px; }
+.waw-item-row:hover { background: rgba(139, 92, 199, 0.12); }
+.waw-item-img { width: 24px; height: 24px; object-fit: cover; border-radius: 5px; flex: 0 0 auto; border: 1px solid var(--waw-line); }
+.waw-item-name { flex: 1; }
+.waw-item-empty { padding: 0.35rem; color: var(--waw-text-dim); font-style: italic; font-size: 0.8rem; }
+
+.waw-item-controls { display: flex; gap: 0.1rem; opacity: 0.45; transition: opacity 0.12s ease; }
+.waw-spell-row:hover .waw-item-controls,
+.waw-trait-row:hover .waw-item-controls,
+.waw-item-row:hover .waw-item-controls { opacity: 1; }
+.waw-icon-btn {
+  border: none; background: none; cursor: pointer;
+  padding: 0.15rem 0.3rem; border-radius: 5px;
+  color: var(--waw-text-dim);
+  transition: all 0.1s ease;
+}
+.waw-icon-btn:hover { background: var(--waw-accent); color: #fff; }
+.waw-icon-btn.on { color: var(--waw-gold); }
+.waw-icon-btn.waw-lock.on { color: var(--waw-gold-soft); }
+
+/* ---- Generic field grids --------------------------------------------------- */
+.waw-field-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.5rem; }
+.waw-field-grid label, .waw-field-block label {
+  display: flex; flex-direction: column; gap: 0.15rem;
+  font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--waw-text-dim);
+}
+.waw-checkbox { flex-direction: row !important; align-items: center; gap: 0.4rem !important; text-transform: none; }
+.waw-card textarea, .waw-items textarea { width: 100%; resize: vertical; }
+
+/* ---- Prose / editors ------------------------------------------------------- */
+.waw-card prose-mirror, .waw-item-description prose-mirror { min-height: 120px; display: block; }
+.waw-prose { padding: 0.3rem; color: var(--waw-text); }
+
+/* ---- NPC sheet (kept simple, themed) --------------------------------------- */
+.waw-columns { display: grid; grid-template-columns: minmax(220px, 1fr) 1.4fr; gap: 0.7rem; align-items: start; }
+.waw-col-left, .waw-col-right { display: flex; flex-direction: column; gap: 0.6rem; }
+.waw-attributes { display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 0.4rem; }
+.waw-attribute {
+  display: flex; flex-direction: column; align-items: center; gap: 0.15rem;
+  padding: 0.4rem; border-radius: 8px;
+  background: var(--waw-panel); border: 1px solid var(--waw-line);
+}
+.waw-attribute-label { font-size: 0.62rem; text-transform: uppercase; font-weight: 700; color: var(--waw-gold-soft); }
+.waw-attribute-value { width: 3rem; text-align: center; font-size: 1.1rem; font-weight: 700; }
+.waw-attribute-mod { font-weight: 700; color: var(--house-2, var(--waw-gold)); }
+.waw-conditions, .waw-encounter, .waw-experience, .waw-field-block, .waw-moves, .waw-biography {
+  background: var(--waw-panel); border: 1px solid var(--waw-line); border-radius: 10px; padding: 0.55rem 0.65rem;
+}
+.waw-condition-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.15rem; }
+.waw-condition-toggle { width: 100%; text-align: left; background: none; border: none; cursor: pointer; padding: 0.2rem 0.3rem; border-radius: 4px; color: var(--waw-text); }
+.waw-condition.active .waw-condition-toggle { color: var(--waw-danger); font-weight: 700; }
+.waw-condition-toggle:hover { background: rgba(139, 92, 199, 0.14); }
+.waw-encounter.defeated { color: var(--waw-danger); }
+.waw-move-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0.3rem; }
+.waw-move-btn { padding: 0.35rem; border: 1px solid var(--waw-line); border-radius: 6px; background: rgba(139, 92, 199, 0.14); color: var(--waw-text); cursor: pointer; font-size: 0.78rem; }
+.waw-move-btn:hover { background: var(--waw-accent); }
+
+/* ---- Item sheets ----------------------------------------------------------- */
+.waw-item-sheet { gap: 0.6rem; }
+.waw-item-body { background: var(--waw-panel); border: 1px solid var(--waw-line); border-radius: 10px; padding: 0.6rem 0.7rem; }
+.waw-move-results { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.5rem; }
+
+/* ---- Creation wizard ------------------------------------------------------- */
+.waw-wizard-launch {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--house-2, var(--waw-gold));
+  background: rgba(201, 164, 92, 0.18);
+  color: var(--waw-gold-soft);
+  cursor: pointer;
+  margin-bottom: 0.4rem;
+}
+.waw-wizard-launch:hover { background: var(--waw-accent); color: #fff; }
+
+.waw-wizard {
+  color: var(--waw-text);
+  background: linear-gradient(180deg, var(--waw-ink), var(--waw-ink-2));
+}
+.waw-wizard .window-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  color: var(--waw-text);
+  background: transparent;
+}
+.waw-wizard input, .waw-wizard select {
+  color: var(--waw-text);
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--waw-line);
+  border-radius: 5px;
+  padding: 0.2rem 0.35rem;
+}
+.waw-wizard select option { background: var(--waw-ink-2); }
+
+.waw-wizard-steps { display: flex; gap: 0.3rem; justify-content: center; flex-wrap: wrap; }
+.waw-wizard-step { background: none; border: none; cursor: pointer; padding: 0; }
+.waw-wizard-dot {
+  display: grid; place-items: center;
+  width: 26px; height: 26px; border-radius: 50%;
+  border: 1.5px solid var(--waw-line);
+  color: var(--waw-text-dim); font-size: 0.78rem; font-weight: 700;
+}
+.waw-wizard-step.active .waw-wizard-dot { border-color: var(--waw-gold); color: var(--waw-ink); background: radial-gradient(circle at 35% 30%, var(--waw-gold-soft), var(--waw-gold)); }
+.waw-wizard-step.done .waw-wizard-dot { border-color: var(--waw-success); color: var(--waw-success); }
+
+.waw-wizard-title { text-align: center; color: var(--waw-gold-soft); margin: 0.2rem 0; border: none; }
+.waw-wizard-body { flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 0.55rem; padding: 0.2rem 0.4rem; }
+.waw-wizard-hint { color: var(--waw-text-dim); font-size: 0.85rem; margin: 0; }
+.waw-wizard-note { color: var(--waw-text-dim); font-size: 0.8rem; margin: 0.1rem 0; }
+.waw-wizard-note b { color: var(--waw-gold-soft); }
+
+.waw-w-field { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--waw-text-dim); }
+.waw-w-field small { text-transform: none; letter-spacing: 0; }
+.waw-w-row { display: flex; gap: 0.5rem; align-items: flex-end; }
+.waw-w-row .waw-w-field { flex: 1; }
+
+.waw-w-attrs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.4rem; }
+.waw-w-attr { display: flex; flex-direction: column; align-items: center; gap: 0.2rem; font-size: 0.7rem; text-transform: uppercase; color: var(--waw-gold-soft); }
+.waw-w-attr input { width: 3rem; text-align: center; font-size: 1.1rem; font-weight: 700; }
+
+.waw-w-traitcols { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+.waw-w-colhead { margin: 0 0 0.3rem; font-size: 0.8rem; border-bottom: 1px solid var(--waw-line); padding-bottom: 0.2rem; }
+.waw-w-colhead.pos { color: var(--waw-success); }
+.waw-w-colhead.neg { color: var(--waw-danger); }
+.waw-w-check { display: flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; padding: 0.12rem 0; cursor: pointer; }
+.waw-w-spelllist { display: grid; grid-template-columns: 1fr 1fr; gap: 0.1rem 0.8rem; }
+.waw-w-summary { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.86rem; }
+.waw-w-summary b { color: var(--waw-gold-soft); }
+
+.waw-wizard-footer { display: flex; justify-content: space-between; gap: 0.5rem; padding-top: 0.4rem; border-top: 1px solid var(--waw-line); }
+.waw-w-btn {
+  padding: 0.4rem 0.9rem; border-radius: 8px;
+  border: 1px solid var(--waw-line);
+  background: var(--waw-panel-2); color: var(--waw-text);
+  cursor: pointer; font-weight: 600;
+}
+.waw-w-btn:hover:not(:disabled) { border-color: var(--waw-gold); }
+.waw-w-btn:disabled { opacity: 0.4; cursor: default; }
+.waw-w-btn.primary { background: linear-gradient(180deg, var(--waw-accent), color-mix(in srgb, var(--waw-accent) 70%, black)); border-color: var(--waw-accent); color: #fff; }
+
+/* ---- Roll dialog ----------------------------------------------------------- */
+.waw-roll-dialog .waw-roll-formula { text-align: center; font-weight: 700; color: var(--waw-accent); margin: 0 0 0.4rem; }
+.waw-roll-dialog .waw-roll-inputs { display: flex; gap: 0.5rem; margin-bottom: 0.4rem; }
+.waw-roll-dialog .waw-roll-inputs label { flex: 1; display: flex; flex-direction: column; gap: 0.15rem; font-size: 0.75rem; }
+.waw-roll-dialog .waw-roll-mods { display: flex; flex-direction: column; gap: 0.25rem; border-top: 1px solid var(--waw-line); padding-top: 0.4rem; }
+.waw-roll-mod { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+.waw-roll-mod span { flex: 1; }
+.waw-roll-mod b { color: var(--waw-accent); }
+
+/* ---- Chat roll card -------------------------------------------------------- */
+.waw-roll-card { display: flex; flex-direction: column; gap: 0.2rem; }
+.waw-roll-head { font-size: 0.95rem; }
+.waw-roll-breakdown { font-size: 0.78rem; opacity: 0.8; }
+.waw-roll-flavor { font-size: 0.82rem; font-style: italic; opacity: 0.9; }
+.waw-roll-tier { font-weight: 700; }
+.waw-roll-success { color: var(--waw-success); }
+.waw-roll-partial { color: var(--waw-partial); }
+.waw-roll-failure { color: var(--waw-danger); }
+.waw-reroll {
+  align-self: flex-start;
+  margin-top: 0.25rem;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--waw-line);
+  border-radius: 6px;
+  background: rgba(139, 92, 199, 0.16);
+  cursor: pointer;
+  font-size: 0.78rem;
+}
+.waw-reroll:hover { background: var(--waw-accent); color: #fff; }
+.waw-item-card h3 { border-bottom: 1px solid var(--waw-line); margin-bottom: 0.3rem; }

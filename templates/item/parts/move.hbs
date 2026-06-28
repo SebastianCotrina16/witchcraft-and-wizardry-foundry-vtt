@@ -1,0 +1,30 @@
+{{!-- Move body: optional basic-move key, attribute and per-tier results. --}}
+<div class="waw-field-grid">
+  <label>{{localize "WAW.Field.BasicMove"}}
+    <select name="system.key" {{#unless editable}}disabled{{/unless}}>
+      <option value="" {{#if (wawEq system.key "")}}selected{{/if}}>&mdash;</option>
+      {{#each config.moves as |move key|}}
+      <option value="{{key}}" {{#if (wawEq @root.system.key key)}}selected{{/if}}>{{localize move.label}}</option>
+      {{/each}}
+    </select>
+  </label>
+  <label>{{localize "WAW.Field.Attribute"}}
+    <select name="system.attribute" {{#unless editable}}disabled{{/unless}}>
+      <option value="" {{#if (wawEq system.attribute "")}}selected{{/if}}>&mdash;</option>
+      {{#each config.attributes as |labelKey key|}}
+      <option value="{{key}}" {{#if (wawEq @root.system.attribute key)}}selected{{/if}}>{{localize labelKey}}</option>
+      {{/each}}
+    </select>
+  </label>
+</div>
+<div class="waw-move-results">
+  <label>{{localize "WAW.Roll.Success"}} (10+)
+    <textarea name="system.results.success" rows="2" {{#unless editable}}disabled{{/unless}}>{{system.results.success}}</textarea>
+  </label>
+  <label>{{localize "WAW.Roll.Partial"}} (7-9)
+    <textarea name="system.results.partial" rows="2" {{#unless editable}}disabled{{/unless}}>{{system.results.partial}}</textarea>
+  </label>
+  <label>{{localize "WAW.Roll.Failure"}} (6-)
+    <textarea name="system.results.failure" rows="2" {{#unless editable}}disabled{{/unless}}>{{system.results.failure}}</textarea>
+  </label>
+</div>

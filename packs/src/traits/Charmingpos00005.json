@@ -1,0 +1,20 @@
+{
+  "_id": "Charmingpos00005",
+  "_key": "!items!Charmingpos00005",
+  "name": "Charming",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "positive",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,9 @@
+{{!-- Equipment body: quantity and price in galleons. --}}
+<div class="waw-field-grid">
+  <label>{{localize "WAW.Field.Quantity"}}
+    <input type="number" name="system.quantity" value="{{system.quantity}}" min="0" {{#unless editable}}disabled{{/unless}}>
+  </label>
+  <label>{{localize "WAW.Field.Price"}}
+    <input type="number" name="system.price" value="{{system.price}}" min="0" {{#unless editable}}disabled{{/unless}}>
+  </label>
+</div>

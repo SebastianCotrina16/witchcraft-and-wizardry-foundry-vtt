@@ -1,0 +1,22 @@
+{
+  "_id": "Disillusion00107",
+  "_key": "!items!Disillusion00107",
+  "name": "Disillusionment Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes the target to blend seamlessly in with its surroundings, like a chameleon.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10800,
+  "ownership": {
+    "default": 0
+  }
+}

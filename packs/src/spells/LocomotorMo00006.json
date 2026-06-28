@@ -1,0 +1,22 @@
+{
+  "_id": "LocomotorMo00006",
+  "_key": "!items!LocomotorMo00006",
+  "name": "Locomotor Mortis",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Sticks legs together.</p>",
+    "year": 1,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  }
+}

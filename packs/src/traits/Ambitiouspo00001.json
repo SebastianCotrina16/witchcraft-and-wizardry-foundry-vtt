@@ -1,0 +1,20 @@
+{
+  "_id": "Ambitiouspo00001",
+  "_key": "!items!Ambitiouspo00001",
+  "name": "Ambitious",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "positive",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  }
+}

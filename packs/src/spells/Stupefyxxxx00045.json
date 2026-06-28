@@ -1,0 +1,22 @@
+{
+  "_id": "Stupefyxxxx00045",
+  "_key": "!items!Stupefyxxxx00045",
+  "name": "Stupefy",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Stuns the target, rendering them unconscious.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4600,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Serpensorti00042",
+  "_key": "!items!Serpensorti00042",
+  "name": "Serpensortia",
+  "type": "spell",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Conjures a serpent from the caster's wand.</p>",
+    "year": 2,
+    "spellType": "conjuration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4300,
+  "ownership": {
+    "default": 0
+  }
+}

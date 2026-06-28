@@ -1,0 +1,20 @@
+{
+  "_id": "Insecureneg00053",
+  "_key": "!items!Insecureneg00053",
+  "name": "Insecure",
+  "type": "trait",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "",
+    "kind": "negative",
+    "locked": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5400,
+  "ownership": {
+    "default": 0
+  }
+}

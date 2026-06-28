@@ -1,0 +1,22 @@
+{
+  "_id": "Obliteratio00117",
+  "_key": "!items!Obliteratio00117",
+  "name": "Obliteration Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Removes footprints.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 11800,
+  "ownership": {
+    "default": 0
+  }
+}

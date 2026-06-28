@@ -1,0 +1,22 @@
+{
+  "_id": "Rictusempra00040",
+  "_key": "!items!Rictusempra00040",
+  "name": "Rictusempra",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Tickles the target until they become weak with laughter.</p>",
+    "year": 2,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 4100,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Avisxxxxxxx00049",
+  "_key": "!items!Avisxxxxxxx00049",
+  "name": "Avis",
+  "type": "spell",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Conjures a flock of birds from the tip of the wand. When used in conjunction with Oppugno, it can be used offensively.</p>",
+    "year": 3,
+    "spellType": "conjuration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  }
+}

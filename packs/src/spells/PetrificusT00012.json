@@ -1,0 +1,22 @@
+{
+  "_id": "PetrificusT00012",
+  "_key": "!items!PetrificusT00012",
+  "name": "Petrificus Totalus",
+  "type": "spell",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Used to temporarily bind the victim's body in a position much like that of a soldier at attention; the victim will usually fall to the ground.</p>",
+    "year": 1,
+    "spellType": "curse",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  }
+}

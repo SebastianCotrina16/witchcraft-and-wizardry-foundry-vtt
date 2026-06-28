@@ -1,0 +1,22 @@
+{
+  "_id": "Imperviusxx00063",
+  "_key": "!items!Imperviusxx00063",
+  "name": "Impervius",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Makes an object repel water and mist.</p>",
+    "year": 3,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 6400,
+  "ownership": {
+    "default": 0
+  }
+}

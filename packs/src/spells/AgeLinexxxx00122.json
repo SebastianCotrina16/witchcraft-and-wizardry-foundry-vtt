@@ -1,0 +1,22 @@
+{
+  "_id": "AgeLinexxxx00122",
+  "_key": "!items!AgeLinexxxx00122",
+  "name": "Age Line",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Prevents people above or below a certain age from access to a target.</p>",
+    "year": 6,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 12300,
+  "ownership": {
+    "default": 0
+  }
+}

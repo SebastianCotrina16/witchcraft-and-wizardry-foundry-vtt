@@ -1,0 +1,22 @@
+{
+  "_id": "Diffindoxxx00076",
+  "_key": "!items!Diffindoxxx00076",
+  "name": "Diffindo",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Used to precisely cut or tear objects.</p>",
+    "year": 4,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 7700,
+  "ownership": {
+    "default": 0
+  }
+}

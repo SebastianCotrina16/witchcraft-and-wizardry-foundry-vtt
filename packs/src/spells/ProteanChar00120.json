@@ -1,0 +1,22 @@
+{
+  "_id": "ProteanChar00120",
+  "_key": "!items!ProteanChar00120",
+  "name": "Protean Charm",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Causes copies of an object to be remotely affected by changes made to the original.</p>",
+    "year": 5,
+    "spellType": "charm",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 12100,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "CauldrontoB00100",
+  "_key": "!items!CauldrontoB00100",
+  "name": "Cauldron to Badger",
+  "type": "spell",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "source": "Core Rulebook",
+    "description": "<p>Transforms cauldrons into badgers.</p>",
+    "year": 5,
+    "spellType": "transfiguration",
+    "inSpellBank": false,
+    "isSignature": false
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 10100,
+  "ownership": {
+    "default": 0
+  }
+}
